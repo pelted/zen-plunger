@@ -11,7 +11,7 @@ This queue tracks implementation work against the architecture plan. Keep it pra
 - [x] Add initial Windows Steam launcher
 - [x] Add versioned JSON table catalog model
 - [x] Add JSON table catalog store/import service
-- [ ] Add tests for Steam launch command construction
+- [x] Add tests for Steam launch command construction
 - [x] Move starter table list behind an `ITableCatalog` implementation
 - [x] Add tests for JSON catalog load/save/import behavior
 - [ ] Add basic app composition instead of direct construction in `MainWindow`
