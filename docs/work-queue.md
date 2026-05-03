@@ -14,7 +14,7 @@ This queue tracks implementation work against the architecture plan. Keep it pra
 - [x] Add tests for Steam launch command construction
 - [x] Move starter table list behind an `ITableCatalog` implementation
 - [x] Add tests for JSON catalog load/save/import behavior
-- [ ] Add basic app composition instead of direct construction in `MainWindow`
+- [x] Add basic app composition instead of direct construction in `MainWindow`
 
 ## Phase 1: MVP Launcher
 

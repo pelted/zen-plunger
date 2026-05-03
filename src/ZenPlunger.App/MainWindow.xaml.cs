@@ -1,20 +1,22 @@
-using System.IO;
 using System.Windows;
 using ZenPlunger.Core.Launching;
 using ZenPlunger.Core.Tables;
-using ZenPlunger.Platform.Windows.Data;
-using ZenPlunger.Platform.Windows.Launching;
 
 namespace ZenPlunger.App;
 
 public partial class MainWindow : Window
 {
-    private readonly IPinballFxLauncher _launcher = new SteamPinballFxLauncher();
-    private readonly ITableCatalog _tableCatalog = new JsonTableCatalogStore(
-        Path.Combine(AppContext.BaseDirectory, "data", "tables.sample.json"));
+    private readonly IPinballFxLauncher _launcher;
+    private readonly ITableCatalog _tableCatalog;
 
-    public MainWindow()
+    public MainWindow(IPinballFxLauncher launcher, ITableCatalog tableCatalog)
     {
+        ArgumentNullException.ThrowIfNull(launcher);
+        ArgumentNullException.ThrowIfNull(tableCatalog);
+
+        _launcher = launcher;
+        _tableCatalog = tableCatalog;
+
         InitializeComponent();
 
         Loaded += MainWindow_Loaded;
