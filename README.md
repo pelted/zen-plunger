@@ -14,6 +14,20 @@ The goal is to replace complex and brittle solutions like PinUP Popper with a cl
 
 ---
 
+## Getting Started
+
+To set up the development environment on a fresh Windows machine, run the included bootstrap script from an **elevated PowerShell window**:
+
+```powershell
+.\bootstrap-dev.ps1
+```
+
+This will install all required tools via `winget` and create the expected folder structure. See the [Development Environment](#development-environment) section for the full list of what gets installed.
+
+> **Note:** After the script completes, restart Windows before running `dotnet --info` or `git --version` to confirm the tools are on your PATH.
+
+---
+
 ## Reference Material
 
 - Pinball FX Cabinet Mode Documentation  
