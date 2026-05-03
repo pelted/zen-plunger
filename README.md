@@ -37,6 +37,7 @@ At this stage, the shell can show a small starter table list and send a Steam la
 
 - [Development setup](docs/development-setup.md)
 - [Architecture](docs/architecture.md)
+- [Table catalog](docs/table-catalog.md)
 - [Work queue](docs/work-queue.md)
 
 ## Repository Structure
@@ -52,7 +53,10 @@ src/
 docs/
   architecture.md
   development-setup.md
+  table-catalog.md
   work-queue.md
+data/
+  tables.sample.json
 ```
 
 ## Guiding Principles
@@ -62,4 +66,3 @@ docs/
 - Cabinet-first UX
 - Official integrations first
 - Graceful failure with clear diagnostics
-

@@ -44,10 +44,12 @@ Platform-neutral contracts and models. This project should avoid direct Windows,
 Current responsibilities:
 
 - Table metadata models
+- Versioned table catalog document model
 - Launch request model
 - Launcher interface
 - Overlay controller interface
 - Table catalog interface
+- Table catalog store/import interfaces
 
 ### ZenPlunger.Platform.Windows
 
@@ -57,6 +59,7 @@ Current responsibilities:
 
 - Build a Steam Pinball FX launch command
 - Start the launch process through `steam.exe`
+- Load, save, and import table catalog data from JSON files
 
 ## Runtime Components
 
@@ -97,6 +100,20 @@ Zen Plunger should detect `DmdDevice64.dll`, validate configuration, and surface
 
 Zen Plunger should detect a DOFLinx install, inspect `DOFLinx.INI`, validate related paths, and later assist with table-specific configuration.
 
+## Table Catalog Storage
+
+The first datastore is a versioned JSON document. JSON keeps early iteration simple and makes it easy to hand-author or import table metadata files.
+
+The catalog shape is intentionally close to a future SQLite model:
+
+- Table identity and display fields
+- Optional collection/grouping
+- Backglass asset path
+- DMD asset path
+- Per-asset screen placement
+
+Future SQLite tables can map from this structure without changing the app-level catalog interfaces.
+
 ## Design Bias
 
 - Keep core contracts small and testable.
@@ -104,4 +121,3 @@ Zen Plunger should detect a DOFLinx install, inspect `DOFLinx.INI`, validate rel
 - Prefer explicit diagnostics over silent fallback.
 - Make command construction testable without launching external processes.
 - Keep the WPF shell thin until the core workflows are clear.
-

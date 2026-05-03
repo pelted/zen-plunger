@@ -4,4 +4,7 @@
     <Project Path="src/ZenPlunger.Core/ZenPlunger.Core.csproj" />
     <Project Path="src/ZenPlunger.Platform.Windows/ZenPlunger.Platform.Windows.csproj" />
   </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/ZenPlunger.Platform.Windows.Tests/ZenPlunger.Platform.Windows.Tests.csproj" />
+  </Folder>
 </Solution>

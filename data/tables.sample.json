@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "tables": [
+    {
+      "id": "Williams_Medieval_Madness",
+      "displayName": "Medieval Madness",
+      "collection": "Williams",
+      "assets": {
+        "backglass": {
+          "path": "assets/backglass/medieval-madness.png",
+          "placement": {
+            "screenName": "Backglass",
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        "dmd": {
+          "path": "assets/dmd/medieval-madness.png",
+          "placement": {
+            "screenName": "DMD",
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 320
+          }
+        }
+      }
+    },
+    {
+      "id": "Williams_Attack_From_Mars",
+      "displayName": "Attack from Mars",
+      "collection": "Williams",
+      "assets": {
+        "backglass": {
+          "path": "assets/backglass/attack-from-mars.png",
+          "placement": {
+            "screenName": "Backglass",
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        "dmd": {
+          "path": "assets/dmd/attack-from-mars.png",
+          "placement": {
+            "screenName": "DMD",
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 320
+          }
+        }
+      }
+    },
+    {
+      "id": "Zen_Sorcerers_Lair",
+      "displayName": "Sorcerer's Lair",
+      "collection": "Zen Originals",
+      "assets": {
+        "backglass": {
+          "path": "assets/backglass/sorcerers-lair.png",
+          "placement": {
+            "screenName": "Backglass",
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        "dmd": {
+          "path": "assets/dmd/sorcerers-lair.png",
+          "placement": {
+            "screenName": "DMD",
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 320
+          }
+        }
+      }
+    }
+  ]
+}

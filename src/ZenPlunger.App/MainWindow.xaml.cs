@@ -1,6 +1,8 @@
+using System.IO;
 using System.Windows;
 using ZenPlunger.Core.Launching;
 using ZenPlunger.Core.Tables;
+using ZenPlunger.Platform.Windows.Data;
 using ZenPlunger.Platform.Windows.Launching;
 
 namespace ZenPlunger.App;
@@ -8,21 +10,26 @@ namespace ZenPlunger.App;
 public partial class MainWindow : Window
 {
     private readonly IPinballFxLauncher _launcher = new SteamPinballFxLauncher();
+    private readonly ITableCatalog _tableCatalog = new JsonTableCatalogStore(
+        Path.Combine(AppContext.BaseDirectory, "data", "tables.sample.json"));
 
     public MainWindow()
     {
         InitializeComponent();
 
-        TableList.ItemsSource = GetStarterTables();
-        TableList.SelectedIndex = 0;
+        Loaded += MainWindow_Loaded;
     }
 
-    private static IReadOnlyList<PinballTable> GetStarterTables() =>
-    [
-        new("Williams_Medieval_Madness", "Medieval Madness", "Williams"),
-        new("Williams_Attack_From_Mars", "Attack from Mars", "Williams"),
-        new("Zen_Sorcerers_Lair", "Sorcerer's Lair", "Zen Originals")
-    ];
+    private async void MainWindow_Loaded(object sender, RoutedEventArgs e)
+    {
+        var tables = await _tableCatalog.GetTablesAsync();
+
+        TableList.ItemsSource = tables;
+        TableList.SelectedIndex = tables.Count > 0 ? 0 : -1;
+        StatusText.Text = tables.Count > 0
+            ? $"Loaded {tables.Count} tables from the JSON catalog."
+            : "No tables found in the JSON catalog.";
+    }
 
     private async void LaunchButton_Click(object sender, RoutedEventArgs e)
     {

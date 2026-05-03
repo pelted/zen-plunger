@@ -9,8 +9,11 @@ This queue tracks implementation work against the architecture plan. Keep it pra
 - [x] Scaffold .NET solution and projects
 - [x] Add initial core launch contracts
 - [x] Add initial Windows Steam launcher
+- [x] Add versioned JSON table catalog model
+- [x] Add JSON table catalog store/import service
 - [ ] Add tests for Steam launch command construction
-- [ ] Move starter table list behind an `ITableCatalog` implementation
+- [x] Move starter table list behind an `ITableCatalog` implementation
+- [x] Add tests for JSON catalog load/save/import behavior
 - [ ] Add basic app composition instead of direct construction in `MainWindow`
 
 ## Phase 1: MVP Launcher
@@ -19,7 +22,8 @@ This queue tracks implementation work against the architecture plan. Keep it pra
 - [ ] Add show/hide overlay controller
 - [ ] Build basic fullscreen overlay window
 - [ ] Add keyboard input path for cabinet button simulation
-- [ ] Load table metadata from a local JSON file
+- [x] Load table metadata from a local JSON file
+- [ ] Add a UI flow for importing a table catalog file
 - [ ] Launch selected Pinball FX table through Steam
 - [ ] Add process monitoring for Pinball FX
 - [ ] Add basic file logging
@@ -55,4 +59,4 @@ This queue tracks implementation work against the architecture plan. Keep it pra
 - Keep the supported Steam launch path reliable before investing heavily in automation.
 - Any feature that touches cabinet hardware or external tools should produce clear diagnostics.
 - Do not let table metadata, external tool detection, or UI state leak into unrelated layers.
-
+- Keep the JSON catalog schema versioned so migrations and SQLite import remain tractable.

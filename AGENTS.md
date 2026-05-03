@@ -10,6 +10,7 @@ Read these files before making architectural changes:
 
 - `README.md`
 - `docs/architecture.md`
+- `docs/table-catalog.md`
 - `docs/work-queue.md`
 - `docs/development-setup.md`
 
@@ -43,6 +44,7 @@ Prefer adding focused tests as core behavior grows. Command construction, file p
 - Keep `README.md` focused on what the project does and basic usage.
 - Put setup details in `docs/development-setup.md`.
 - Put project shape and design decisions in `docs/architecture.md`.
+- Put table catalog schema and import behavior in `docs/table-catalog.md`.
 - Track planned work in `docs/work-queue.md`.
 - Update the work queue when completing or adding meaningful architecture work.
 
@@ -64,4 +66,3 @@ Follow `docs/work-queue.md`. The immediate direction is the Phase 1 MVP launcher
 - Prefer clear names over broad abstractions.
 - Do not add large dependencies until the need is concrete.
 - Avoid unrelated formatting churn.
-

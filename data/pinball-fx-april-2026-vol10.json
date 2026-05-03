@@ -1,0 +1,3769 @@
+{
+  "schemaVersion": 1,
+  "tables": [
+    {
+      "id": "Table_201",
+      "displayName": "Diner",
+      "collection": "Williams",
+      "metadata": {
+        "sourceGameId": "924",
+        "emulatorId": "10",
+        "gameFileName": "Table_201.pxp",
+        "manufacturer": "Williams",
+        "year": 2026,
+        "rom": "1201",
+        "category": "Adventure",
+        "theme": "Video Game",
+        "gameType": "SS",
+        "author": "Zen Studios",
+        "launchCustomVar": "PFX",
+        "gameVersion": "STEAM",
+        "gameModes": [
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice",
+          "Challenge_1Ball",
+          "Challenge_Distance",
+          "Challenge_Flips",
+          "Challenge_Time"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_200",
+      "displayName": "Fire",
+      "collection": "Williams",
+      "metadata": {
+        "sourceGameId": "923",
+        "emulatorId": "10",
+        "gameFileName": "Table_200.pxp",
+        "manufacturer": "Williams",
+        "year": 2026,
+        "rom": "200",
+        "category": "Adventure",
+        "theme": "Video Game",
+        "gameType": "SS",
+        "author": "Zen Studios",
+        "launchCustomVar": "PFX",
+        "gameVersion": "STEAM",
+        "gameModes": [
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice",
+          "Challenge_1Ball",
+          "Challenge_Distance",
+          "Challenge_Flips",
+          "Challenge_Time"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_199",
+      "displayName": "Comet",
+      "collection": "Williams",
+      "metadata": {
+        "sourceGameId": "922",
+        "emulatorId": "10",
+        "gameFileName": "Table_199.pxp",
+        "manufacturer": "Williams",
+        "year": 2026,
+        "rom": "199",
+        "category": "Adventure",
+        "theme": "Video Game",
+        "gameType": "SS",
+        "author": "Zen Studios",
+        "launchCustomVar": "PFX",
+        "gameVersion": "STEAM",
+        "gameModes": [
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice",
+          "Challenge_1Ball",
+          "Challenge_Distance",
+          "Challenge_Flips",
+          "Challenge_Time"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_198",
+      "displayName": "Elvira and the Party Monsters",
+      "collection": "Williams",
+      "metadata": {
+        "sourceGameId": "915",
+        "emulatorId": "10",
+        "gameFileName": "Table_198.pxp",
+        "manufacturer": "Williams",
+        "year": 2025,
+        "rom": "198",
+        "category": "Adventure",
+        "theme": "Video Game",
+        "gameType": "SS",
+        "author": "Zen Studios",
+        "launchCustomVar": "PFX",
+        "gameVersion": "STEAM",
+        "gameModes": [
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice",
+          "Challenge_1Ball",
+          "Challenge_Distance",
+          "Challenge_Flips",
+          "Challenge_Time"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_197",
+      "displayName": "Scared Stiff",
+      "collection": "Williams",
+      "metadata": {
+        "sourceGameId": "914",
+        "emulatorId": "10",
+        "gameFileName": "Table_197.pxp",
+        "manufacturer": "Williams",
+        "year": 2025,
+        "rom": "197",
+        "category": "Adventure",
+        "theme": "Video Game",
+        "gameType": "Original",
+        "author": "Zen Studios",
+        "launchCustomVar": "PFX",
+        "gameVersion": "STEAM",
+        "gameModes": [
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice",
+          "Challenge_1Ball",
+          "Challenge_Distance",
+          "Challenge_Flips",
+          "Challenge_Time"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_196",
+      "displayName": "TAXI",
+      "collection": "Williams",
+      "metadata": {
+        "sourceGameId": "887",
+        "emulatorId": "10",
+        "gameFileName": "Table_196.pxp",
+        "manufacturer": "Williams",
+        "year": 2025,
+        "rom": "196",
+        "category": "Adventure",
+        "theme": "Video Game",
+        "gameType": "Original",
+        "author": "Zen Studios",
+        "launchCustomVar": "PFX",
+        "gameVersion": "STEAM",
+        "gameModes": [
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice",
+          "Challenge_1Ball",
+          "Challenge_Distance",
+          "Challenge_Flips",
+          "Challenge_Time"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_195",
+      "displayName": "WHO dunnit",
+      "collection": "Williams",
+      "metadata": {
+        "sourceGameId": "886",
+        "emulatorId": "10",
+        "gameFileName": "Table_195.pxp",
+        "manufacturer": "Williams",
+        "year": 2025,
+        "rom": "195",
+        "category": "Mysterious",
+        "theme": "Video Game",
+        "gameType": "SS",
+        "author": "Zen Studios",
+        "launchCustomVar": "PFX",
+        "gameVersion": "STEAM",
+        "gameModes": [
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice",
+          "Challenge_1Ball",
+          "Challenge_Distance",
+          "Challenge_Flips",
+          "Challenge_Time"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_194",
+      "displayName": "PIN·BOT",
+      "collection": "Williams",
+      "metadata": {
+        "sourceGameId": "885",
+        "emulatorId": "10",
+        "gameFileName": "Table_194.pxp",
+        "manufacturer": "Williams",
+        "year": 2025,
+        "rom": "194",
+        "category": "Sci-Fi",
+        "theme": "Sci-Fi",
+        "gameType": "SS",
+        "author": "Zen Studios",
+        "launchCustomVar": "PFX",
+        "gameVersion": "STEAM",
+        "gameModes": [
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice",
+          "Challenge_1Ball",
+          "Challenge_Distance",
+          "Challenge_Flips",
+          "Challenge_Time"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_192",
+      "displayName": "Tomb Raider Pinball: Secrets of Croft Manor",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "847",
+        "emulatorId": "10",
+        "gameFileName": "Table_192.pxp",
+        "manufacturer": "Zen Studios",
+        "year": 2025,
+        "rom": "192",
+        "category": "Adventure",
+        "theme": "Video Game",
+        "gameType": "Original",
+        "author": "Zen Studios",
+        "launchCustomVar": "PFX",
+        "gameVersion": "STEAM",
+        "gameModes": [
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice",
+          "Challenge_1Ball",
+          "Challenge_Distance",
+          "Challenge_Flips",
+          "Challenge_Time"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_182",
+      "displayName": "Tomb Raider Pinball: Adventures of Lara Croft",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "846",
+        "emulatorId": "10",
+        "gameFileName": "Table_182.pxp",
+        "manufacturer": "Zen Studios",
+        "year": 2025,
+        "rom": "182",
+        "category": "Adventure",
+        "theme": "Video Game",
+        "gameType": "Original",
+        "author": "Zen Studios",
+        "launchCustomVar": "PFX",
+        "gameVersion": "STEAM",
+        "gameModes": [
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice",
+          "Challenge_1Ball",
+          "Challenge_Distance",
+          "Challenge_Flips",
+          "Challenge_Time"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_190",
+      "displayName": "Black Knight 2000",
+      "collection": "Williams",
+      "metadata": {
+        "sourceGameId": "813",
+        "emulatorId": "10",
+        "gameFileName": "Table_190.pxp",
+        "manufacturer": "Williams",
+        "year": 2024,
+        "rom": "190",
+        "gameType": "Original",
+        "author": "Zen Studios",
+        "designedBy": "Steve Ritchie",
+        "launchCustomVar": "PFX",
+        "displayProfile": "FULLDMD",
+        "gameModes": [
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice",
+          "Challenge_1Ball",
+          "Challenge_Distance",
+          "Challenge_Flips",
+          "Challenge_Time"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_189",
+      "displayName": "Earthshaker",
+      "collection": "Williams",
+      "metadata": {
+        "sourceGameId": "812",
+        "emulatorId": "10",
+        "gameFileName": "Table_189.pxp",
+        "manufacturer": "Williams",
+        "year": 2024,
+        "rom": "189",
+        "gameType": "Original",
+        "author": "Zen Studios",
+        "designedBy": "Pat Lawlor",
+        "launchCustomVar": "PFX",
+        "displayProfile": "FULLDMD",
+        "gameModes": [
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice",
+          "Challenge_1Ball",
+          "Challenge_Distance",
+          "Challenge_Flips",
+          "Challenge_Time"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_188",
+      "displayName": "Banzai Run",
+      "collection": "Williams",
+      "metadata": {
+        "sourceGameId": "811",
+        "emulatorId": "10",
+        "gameFileName": "Table_188.pxp",
+        "manufacturer": "Williams",
+        "year": 2024,
+        "rom": "188",
+        "gameType": "Original",
+        "author": "Zen Studios",
+        "designedBy": "Pat Lawlor,Larry DeMarS",
+        "launchCustomVar": "PFX",
+        "displayProfile": "FULLDMD",
+        "gameModes": [
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice",
+          "Challenge_1Ball",
+          "Challenge_Distance",
+          "Challenge_Flips",
+          "Challenge_Time"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_187",
+      "displayName": "Goat Simulator Pinball",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "809",
+        "emulatorId": "10",
+        "gameFileName": "Table_187.pxp",
+        "manufacturer": "Zen Studios",
+        "year": 2024,
+        "rom": "187",
+        "gameType": "Original",
+        "author": "Zen Studios",
+        "designedBy": "Zoltan \"ZaPo\" Pataki",
+        "launchCustomVar": "PFX",
+        "displayProfile": "FULLDMD",
+        "gameModes": [
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice",
+          "Challenge_1Ball",
+          "Challenge_Distance",
+          "Challenge_Flips",
+          "Challenge_Time"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_184",
+      "displayName": "The Princess Bride Pinball",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "808",
+        "emulatorId": "10",
+        "gameFileName": "Table_184.pxp",
+        "manufacturer": "Zen Studios",
+        "year": 2024,
+        "rom": "184",
+        "gameType": "Original",
+        "author": "Zen Studios",
+        "designedBy": "Zoltan \"ZaPo\" Pataki",
+        "launchCustomVar": "PFX",
+        "displayProfile": "FULLDMD",
+        "gameModes": [
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice",
+          "Challenge_1Ball",
+          "Challenge_Distance",
+          "Challenge_Flips",
+          "Challenge_Time"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_36",
+      "displayName": "Football Super League",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "782",
+        "emulatorId": "10",
+        "gameFileName": "Table_36.pxp",
+        "manufacturer": "Zen Studios",
+        "year": 2024,
+        "rom": "36",
+        "gameType": "Original",
+        "author": "Zen Studios",
+        "designedBy": "Zoltan \"ZaPo\" Pataki",
+        "launchCustomVar": "PFX",
+        "displayProfile": "FULLDMD",
+        "gameModes": [
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice",
+          "Challenge_1Ball",
+          "Challenge_Distance",
+          "Challenge_Flips",
+          "Challenge_Time"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_170",
+      "displayName": "Battlestar Galactica",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "781",
+        "emulatorId": "10",
+        "gameFileName": "Table_170.pxp",
+        "manufacturer": "Zen Studios",
+        "year": 2024,
+        "rom": "170",
+        "category": "Sci-Fi",
+        "theme": "Licensed - Universal",
+        "gameType": "Original",
+        "author": "Zen Studios",
+        "designedBy": "Zoltan \"ZaPo\" Pataki",
+        "launchCustomVar": "PFX",
+        "displayProfile": "FULLDMD",
+        "gameModes": [
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice",
+          "Challenge_1Ball",
+          "Challenge_Distance",
+          "Challenge_Flips",
+          "Challenge_Time"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_186",
+      "displayName": "Pacific Rim Pinball",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "780",
+        "emulatorId": "10",
+        "gameFileName": "Table_186.pxp",
+        "manufacturer": "Zen Studios",
+        "year": 2024,
+        "rom": "186",
+        "gameType": "Original",
+        "author": "Zen Studios",
+        "designedBy": "Zoltan \"ZaPo\" Pataki",
+        "launchCustomVar": "PFX",
+        "displayProfile": "FULLDMD",
+        "gameModes": [
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice",
+          "Challenge_1Ball",
+          "Challenge_Distance",
+          "Challenge_Flips",
+          "Challenge_Time"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_167",
+      "displayName": "Xena Princess Warrior",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "779",
+        "emulatorId": "10",
+        "gameFileName": "Table_167.pxp",
+        "manufacturer": "Zen Studios",
+        "year": 2024,
+        "rom": "167",
+        "gameType": "Original",
+        "author": "Zen Studios",
+        "designedBy": "Zoltan \"ZaPo\" Pataki",
+        "launchCustomVar": "PFX",
+        "displayProfile": "FULLDMD",
+        "gameModes": [
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice",
+          "Challenge_1Ball",
+          "Challenge_Distance",
+          "Challenge_Flips",
+          "Challenge_Time"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_177",
+      "displayName": "Knight Rider Pinball",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "778",
+        "emulatorId": "10",
+        "gameFileName": "Table_177.pxp",
+        "manufacturer": "Zen Studios",
+        "year": 2024,
+        "rom": "177",
+        "gameType": "Original",
+        "author": "Zen Studios",
+        "designedBy": "Zoltan \"ZaPo\" Pataki",
+        "launchCustomVar": "PFX",
+        "displayProfile": "FULLDMD",
+        "gameModes": [
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice",
+          "Challenge_1Ball",
+          "Challenge_Distance",
+          "Challenge_Flips",
+          "Challenge_Time"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_166",
+      "displayName": "Star Trek Pinball: Kelvin Timeline",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "737",
+        "emulatorId": "10",
+        "gameFileName": "Table_166.pxp",
+        "manufacturer": "Zen Studios",
+        "year": 2023,
+        "rom": "166",
+        "author": "Zen Studios",
+        "designedBy": "Zoltan \"ZaPo\" Pataki",
+        "launchCustomVar": "PFX",
+        "displayProfile": "FULLDMD",
+        "gameModes": [
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice",
+          "Challenge_1Ball",
+          "Challenge_Distance",
+          "Challenge_Flips",
+          "Challenge_Time"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_169",
+      "displayName": "Star Trek Pinball: Pinball Discovery",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "736",
+        "emulatorId": "10",
+        "gameFileName": "Table_169.pxp",
+        "manufacturer": "Zen Studios",
+        "year": 2023,
+        "rom": "169",
+        "author": "Zen Studios",
+        "designedBy": "Gaspar Viragos",
+        "launchCustomVar": "PFX",
+        "displayProfile": "FULLDMD",
+        "gameModes": [
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice",
+          "Challenge_1Ball",
+          "Challenge_Distance",
+          "Challenge_Flips",
+          "Challenge_Time"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_172",
+      "displayName": "Star Trek Pinball: Deep Space Nine",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "735",
+        "emulatorId": "10",
+        "gameFileName": "Table_172.pxp",
+        "manufacturer": "Zen Studios",
+        "year": 2023,
+        "rom": "172",
+        "author": "Zen Studios",
+        "designedBy": "Thomas Crofts",
+        "launchCustomVar": "PFX",
+        "displayProfile": "FULLDMD",
+        "gameModes": [
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice",
+          "Challenge_1Ball",
+          "Challenge_Distance",
+          "Challenge_Flips",
+          "Challenge_Time"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_173",
+      "displayName": "Terraforming Mars Pinball",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "734",
+        "emulatorId": "10",
+        "gameFileName": "Table_173.pxp",
+        "manufacturer": "Zen Studios",
+        "year": 2023,
+        "rom": "173",
+        "theme": "Licensed - Video Game",
+        "author": "Zen Studios",
+        "designedBy": "Daniel \"Dolby\" Vigh",
+        "launchCustomVar": "PFX",
+        "displayProfile": "FULLDMD",
+        "gameModes": [
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice",
+          "Challenge_1Ball",
+          "Challenge_Distance",
+          "Challenge_Flips",
+          "Challenge_Time"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_178",
+      "displayName": "Exploding Kittens: A Pinball Cat-astrophe",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "733",
+        "emulatorId": "10",
+        "gameFileName": "Table_178.pxp",
+        "manufacturer": "Zen Studios",
+        "year": 2023,
+        "rom": "178",
+        "category": "Video Games",
+        "theme": "Licensed - Game Night",
+        "gameType": "Original",
+        "author": "Zen Studios",
+        "designedBy": "Eniko \"Doe\" Mihalyi",
+        "launchCustomVar": "PFX",
+        "displayProfile": "FULLDMD",
+        "gameModes": [
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice",
+          "Challenge_1Ball",
+          "Challenge_Distance",
+          "Challenge_Flips",
+          "Challenge_Time"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_179",
+      "displayName": "Gloomhaven Pinball",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "732",
+        "emulatorId": "10",
+        "gameFileName": "Table_179.pxp",
+        "manufacturer": "Zen Studios",
+        "year": 2023,
+        "rom": "179",
+        "category": "Video Games",
+        "theme": "Licensed - Game Night",
+        "gameType": "Original",
+        "author": "Zen Studios",
+        "designedBy": "Thomas Crofts",
+        "launchCustomVar": "PFX",
+        "displayProfile": "FULLDMD",
+        "gameModes": [
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice",
+          "Challenge_1Ball",
+          "Challenge_Distance",
+          "Challenge_Flips",
+          "Challenge_Time"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_181",
+      "displayName": "A Charlie Brown Christmas Pinball",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "731",
+        "emulatorId": "10",
+        "gameFileName": "Table_181.pxp",
+        "manufacturer": "Zen Studios",
+        "year": 2023,
+        "rom": "181",
+        "theme": "Licensed - Peanuts",
+        "gameType": "Original",
+        "author": "Zen Studios",
+        "designedBy": "Zoltan \"ZaPo\" Pataki",
+        "launchCustomVar": "PFX",
+        "displayProfile": "FULLDMD",
+        "gameModes": [
+          "Arcade",
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice",
+          "Challenge_1Ball",
+          "Challenge_Distance",
+          "Challenge_Flips",
+          "Challenge_Time"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_20",
+      "displayName": "Excalibur",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "730",
+        "emulatorId": "10",
+        "gameFileName": "Table_20.pxp",
+        "manufacturer": "Zen Studios",
+        "year": 2023,
+        "rom": "20",
+        "category": "Fantasy",
+        "theme": "Fantasy",
+        "gameType": "Original",
+        "author": "Zen Studios",
+        "designedBy": "Zoltan Vari",
+        "launchCustomVar": "PFX",
+        "gameModes": [
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice",
+          "Challenge_1Ball",
+          "Challenge_Distance",
+          "Challenge_Flips",
+          "Challenge_Time"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_67",
+      "displayName": "Epic Quest",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "729",
+        "emulatorId": "10",
+        "gameFileName": "Table_67.pxp",
+        "manufacturer": "Zen Studios",
+        "year": 2023,
+        "rom": "67",
+        "category": "Fantasy",
+        "theme": "Fantasy",
+        "gameType": "Original",
+        "author": "Zen Studios",
+        "designedBy": "Mate Szeplaki",
+        "launchCustomVar": "PFX",
+        "gameModes": [
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice",
+          "Challenge_1Ball",
+          "Challenge_Distance",
+          "Challenge_Flips",
+          "Challenge_Time"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_59",
+      "displayName": "X-Men",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "720",
+        "emulatorId": "10",
+        "gameFileName": "Table_59.pxp",
+        "manufacturer": "Zen Studios",
+        "year": 2011,
+        "rom": "59",
+        "author": "Zen Studios",
+        "designedBy": "Thomas Crofts",
+        "launchCustomVar": "FX3",
+        "gameModes": [
+          "Classic",
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Pro",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_56",
+      "displayName": "World War Hulk",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "719",
+        "emulatorId": "10",
+        "gameFileName": "Table_56.pxp",
+        "manufacturer": "Zen Studios",
+        "rom": "56",
+        "author": "Zen Studios",
+        "designedBy": "Ivan \"Mad_Boy\" Nicoara",
+        "gameModes": [
+          "Classic",
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Pro",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_71",
+      "displayName": "Wolverine",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "718",
+        "emulatorId": "10",
+        "gameFileName": "Table_71.pxp",
+        "manufacturer": "Zen Studios",
+        "rom": "71",
+        "author": "Zen Studios",
+        "designedBy": "Zoltan Vari",
+        "gameModes": [
+          "Classic",
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Pro",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_73",
+      "displayName": "Venom",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "717",
+        "emulatorId": "10",
+        "gameFileName": "Table_73.pxp",
+        "manufacturer": "Zen Studios",
+        "rom": "73",
+        "author": "Zen Studios",
+        "designedBy": "Zoltan Vari",
+        "gameModes": [
+          "Classic",
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Pro",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_7",
+      "displayName": "Thor",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "716",
+        "emulatorId": "10",
+        "gameFileName": "Table_7.pxp",
+        "manufacturer": "Zen Studios",
+        "rom": "7",
+        "author": "Zen Studios",
+        "designedBy": "Ivan \"Mad_Boy\" Nicoara",
+        "gameModes": [
+          "Classic",
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Pro",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_103",
+      "displayName": "The Last Jedi",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "715",
+        "emulatorId": "10",
+        "gameFileName": "Table_103.pxp",
+        "manufacturer": "Zen Studios",
+        "rom": "103",
+        "author": "Zen Studios",
+        "designedBy": "Peter \"Deep\" Grafl",
+        "gameModes": [
+          "Classic",
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Pro",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_60",
+      "displayName": "The Infinity Gauntlet",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "714",
+        "emulatorId": "10",
+        "gameFileName": "Table_60.pxp",
+        "manufacturer": "Zen Studios",
+        "rom": "60",
+        "author": "Zen Studios",
+        "designedBy": "Peter \"Deep\" Grafl",
+        "gameModes": [
+          "Classic",
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Pro",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_88",
+      "displayName": "The Force Awakens",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "713",
+        "emulatorId": "10",
+        "gameFileName": "Table_88.pxp",
+        "manufacturer": "Zen Studios",
+        "rom": "88",
+        "theme": "Licensed - Star Wars",
+        "gameType": "Original",
+        "author": "Zen Studios",
+        "designedBy": "Peter \"Deep\" Grafl",
+        "gameModes": [
+          "Classic",
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Pro",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_47",
+      "displayName": "The Clone Wars",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "712",
+        "emulatorId": "10",
+        "gameFileName": "Table_47.pxp",
+        "manufacturer": "Zen Studios",
+        "rom": "47",
+        "theme": "Licensed - Star Wars",
+        "gameType": "Original",
+        "author": "Zen Studios",
+        "designedBy": "Ivan \"Mad_Boy\" Nicoara",
+        "gameModes": [
+          "Classic",
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Pro",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_6",
+      "displayName": "Starfighter Assault",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "711",
+        "emulatorId": "10",
+        "gameFileName": "Table_6.pxp",
+        "manufacturer": "Zen Studios",
+        "rom": "6",
+        "theme": "Licensed - Star Wars",
+        "gameType": "Original",
+        "author": "Zen Studios",
+        "designedBy": "Tamas \"Ypok\" Pokrocz",
+        "gameModes": [
+          "Classic",
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Pro",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_77",
+      "displayName": "Star Wars Rebels",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "710",
+        "emulatorId": "10",
+        "gameFileName": "Table_77.pxp",
+        "manufacturer": "Zen Studios",
+        "rom": "77",
+        "theme": "Licensed - Star Wars",
+        "gameType": "Original",
+        "author": "Zen Studios",
+        "designedBy": "Peter \"Deep\" Grafl",
+        "gameModes": [
+          "Classic",
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Pro",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_46",
+      "displayName": "Spider-Man",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "709",
+        "emulatorId": "10",
+        "gameFileName": "Table_46.pxp",
+        "manufacturer": "Zen Studios",
+        "rom": "46",
+        "author": "Zen Studios",
+        "designedBy": "Mate Szeplaki",
+        "gameModes": [
+          "Classic",
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Pro",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_4",
+      "displayName": "South Park Pinball",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "708",
+        "emulatorId": "10",
+        "gameFileName": "Table_4.pxp",
+        "manufacturer": "Zen Studios",
+        "rom": "4",
+        "author": "Zen Studios",
+        "designedBy": "Peter \"Deep\" Grafl",
+        "gameModes": [
+          "Classic",
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Pro",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_80",
+      "displayName": "Son of Zeus",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "707",
+        "emulatorId": "10",
+        "gameFileName": "Table_80.pxp",
+        "manufacturer": "Zen Studios",
+        "rom": "80",
+        "author": "Zen Studios",
+        "designedBy": "Peter \"Deep\" Grafl",
+        "gameModes": [
+          "Classic",
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Pro",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_105",
+      "displayName": "Solo",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "706",
+        "emulatorId": "10",
+        "gameFileName": "Table_105.pxp",
+        "manufacturer": "Zen Studios",
+        "rom": "105",
+        "theme": "Licensed - Star Wars",
+        "gameType": "Original",
+        "author": "Zen Studios",
+        "designedBy": "Zoltan Vari",
+        "gameModes": [
+          "Classic",
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Pro",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_31",
+      "displayName": "Rome",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "705",
+        "emulatorId": "10",
+        "gameFileName": "Table_31.pxp",
+        "manufacturer": "Zen Studios",
+        "rom": "31",
+        "author": "Zen Studios",
+        "designedBy": "Tamas Stephen",
+        "gameModes": [
+          "Classic",
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Pro",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_98",
+      "displayName": "Rogue One",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "704",
+        "emulatorId": "10",
+        "gameFileName": "Table_98.pxp",
+        "manufacturer": "Zen Studios",
+        "rom": "98",
+        "theme": "Licensed - Star Wars",
+        "gameType": "Original",
+        "author": "Zen Studios",
+        "designedBy": "Zoltan Vari",
+        "gameModes": [
+          "Classic",
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Pro",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_23",
+      "displayName": "Pasha",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "703",
+        "emulatorId": "10",
+        "gameFileName": "Table_23.pxp",
+        "manufacturer": "Zen Studios",
+        "rom": "23",
+        "author": "Zen Studios",
+        "designedBy": "Zoltan Somorjai",
+        "gameModes": [
+          "Classic",
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Pro",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_49",
+      "displayName": "Moon Knight",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "702",
+        "emulatorId": "10",
+        "gameFileName": "Table_49.pxp",
+        "manufacturer": "Zen Studios",
+        "rom": "49",
+        "author": "Zen Studios",
+        "designedBy": "Imre \"Emeric\" Szigeti",
+        "gameModes": [
+          "Classic",
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Pro",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_89",
+      "displayName": "Might of the First Order",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "701",
+        "emulatorId": "10",
+        "gameFileName": "Table_89.pxp",
+        "manufacturer": "Zen Studios",
+        "rom": "89",
+        "author": "Zen Studios",
+        "designedBy": "Zoltan Vari",
+        "gameModes": [
+          "Classic",
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Pro",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_2",
+      "displayName": "Masters of the Force",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "700",
+        "emulatorId": "10",
+        "gameFileName": "Table_2.pxp",
+        "manufacturer": "Zen Studios",
+        "rom": "2",
+        "theme": "Licensed - Star Wars",
+        "gameType": "Original",
+        "author": "Zen Studios",
+        "designedBy": "Zoltan Vari",
+        "gameModes": [
+          "Classic",
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Pro",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_94",
+      "displayName": "Marvel's Women of Power: Champions",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "699",
+        "emulatorId": "10",
+        "gameFileName": "Table_94.pxp",
+        "manufacturer": "Zen Studios",
+        "rom": "94",
+        "author": "Zen Studios",
+        "designedBy": "Zoltan Vari",
+        "gameModes": [
+          "Classic",
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Pro",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_93",
+      "displayName": "Marvel's Women of Power: A-Force",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "698",
+        "emulatorId": "10",
+        "gameFileName": "Table_93.pxp",
+        "manufacturer": "Zen Studios",
+        "rom": "93",
+        "author": "Zen Studios",
+        "designedBy": "Thomas Crofts",
+        "gameModes": [
+          "Classic",
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Pro",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_17",
+      "displayName": "Marvel's The Avengers",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "697",
+        "emulatorId": "10",
+        "gameFileName": "Table_17.pxp",
+        "manufacturer": "Zen Studios",
+        "rom": "17",
+        "author": "Zen Studios",
+        "designedBy": "Thomas Crofts",
+        "gameModes": [
+          "Classic",
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Pro",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_50",
+      "displayName": "Marvel's Guardians of the Galaxy",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "696",
+        "emulatorId": "10",
+        "gameFileName": "Table_50.pxp",
+        "manufacturer": "Zen Studios",
+        "rom": "50",
+        "author": "Zen Studios",
+        "designedBy": "Thomas Crofts",
+        "gameModes": [
+          "Classic",
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Pro",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_78",
+      "displayName": "Marvel's Avengers: Age of Ultron",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "695",
+        "emulatorId": "10",
+        "gameFileName": "Table_78.pxp",
+        "manufacturer": "Zen Studios",
+        "rom": "78",
+        "author": "Zen Studios",
+        "designedBy": "Tamas \"Ypok\" Pokrocz",
+        "gameModes": [
+          "Classic",
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Pro",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_79",
+      "displayName": "Marvel's Ant-Man",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "694",
+        "emulatorId": "10",
+        "gameFileName": "Table_79.pxp",
+        "manufacturer": "Zen Studios",
+        "rom": "79",
+        "author": "Zen Studios",
+        "designedBy": "Zoltan Vari",
+        "gameModes": [
+          "Classic",
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Pro",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_101",
+      "displayName": "Jurassic World Pinball",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "693",
+        "emulatorId": "10",
+        "gameFileName": "Table_101.pxp",
+        "manufacturer": "Zen Studios",
+        "rom": "101",
+        "author": "Zen Studios",
+        "designedBy": "Thomas Crofts",
+        "gameModes": [
+          "Classic",
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Pro",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_102",
+      "displayName": "Jurassic Park Pinball Mayhem",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "692",
+        "emulatorId": "10",
+        "gameFileName": "Table_102.pxp",
+        "manufacturer": "Zen Studios",
+        "rom": "102",
+        "author": "Zen Studios",
+        "designedBy": "Peter Horvath",
+        "gameModes": [
+          "Classic",
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Pro",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_100",
+      "displayName": "Jurassic Park Pinball",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "691",
+        "emulatorId": "10",
+        "gameFileName": "Table_100.pxp",
+        "manufacturer": "Zen Studios",
+        "rom": "100",
+        "author": "Zen Studios",
+        "designedBy": "Zoltan Vari",
+        "gameModes": [
+          "Classic",
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Pro",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_65",
+      "displayName": "Iron Man",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "690",
+        "emulatorId": "10",
+        "gameFileName": "Table_65.pxp",
+        "manufacturer": "Zen Studios",
+        "rom": "65",
+        "category": "Marvel",
+        "theme": "Licensed - Marvel",
+        "gameType": "Original",
+        "author": "Zen Studios",
+        "designedBy": "Ivan \"Mad_Boy\" Nicoara",
+        "gameModes": [
+          "Classic",
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Pro",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_126",
+      "displayName": "Hurricane",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "689",
+        "emulatorId": "10",
+        "gameFileName": "Table_126.pxp",
+        "manufacturer": "Zen Studios",
+        "rom": "126",
+        "theme": "Fantasy",
+        "gameType": "SS",
+        "author": "Zen StudiosZen Studios",
+        "gameModes": [
+          "Classic",
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Pro",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_10",
+      "displayName": "Han Solo",
+      "collection": "Williams",
+      "metadata": {
+        "sourceGameId": "688",
+        "emulatorId": "10",
+        "gameFileName": "Table_10.pxp",
+        "manufacturer": "Williams",
+        "rom": "10",
+        "category": "Star Wars",
+        "theme": "Licensed - Star Wars",
+        "gameType": "Original",
+        "author": "Zen Studios",
+        "designedBy": "Zoltan Vari",
+        "gameModes": [
+          "Classic",
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Pro",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_21",
+      "displayName": "Ghost Rider",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "687",
+        "emulatorId": "10",
+        "gameFileName": "Table_21.pxp",
+        "manufacturer": "Zen Studios",
+        "rom": "21",
+        "category": "Marvel",
+        "theme": "Licensed - Marvel",
+        "gameType": "Original",
+        "author": "Zen Studios",
+        "designedBy": "Zoltan Vari",
+        "gameModes": [
+          "Classic",
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Pro",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_5",
+      "displayName": "Fear Itself",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "686",
+        "emulatorId": "10",
+        "gameFileName": "Table_5.pxp",
+        "manufacturer": "Zen Studios",
+        "rom": "5",
+        "category": "Marvel",
+        "theme": "Licensed - Marvel",
+        "gameType": "Original",
+        "author": "Zen Studios",
+        "designedBy": "Zoltan Vari",
+        "gameModes": [
+          "Classic",
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Pro",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_38",
+      "displayName": "Fantastic Four",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "685",
+        "emulatorId": "10",
+        "gameFileName": "Table_38.pxp",
+        "manufacturer": "Zen Studios",
+        "rom": "38",
+        "category": "Marvel",
+        "theme": "Licensed - Marvel",
+        "gameType": "Original",
+        "author": "Zen Studios",
+        "designedBy": "Peter \"Deep\" Grafl",
+        "gameModes": [
+          "Classic",
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Pro",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_24",
+      "displayName": "Episode VI Return of the Jedi",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "684",
+        "emulatorId": "10",
+        "gameFileName": "Table_24.pxp",
+        "manufacturer": "Zen Studios",
+        "rom": "24",
+        "category": "Star Wars",
+        "theme": "Licensed - Star Wars",
+        "gameType": "Original",
+        "author": "Zen Studios",
+        "designedBy": "Peter \"Deep\" Grafl",
+        "gameModes": [
+          "Classic",
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Pro",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_43",
+      "displayName": "Episode V The Empire Strikes Back",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "683",
+        "emulatorId": "10",
+        "gameFileName": "Table_43.pxp",
+        "manufacturer": "Zen Studios",
+        "rom": "43",
+        "category": "Star Wars",
+        "theme": "Licensed - Star Wars",
+        "gameType": "Original",
+        "author": "Zen Studios",
+        "designedBy": "Peter \"Deep\" Grafl",
+        "gameModes": [
+          "Classic",
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Pro",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_12",
+      "displayName": "Episode IV A New Hope",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "682",
+        "emulatorId": "10",
+        "gameFileName": "Table_12.pxp",
+        "manufacturer": "Zen Studios",
+        "rom": "12",
+        "category": "Star Wars",
+        "theme": "Licensed - Star Wars",
+        "gameType": "Original",
+        "author": "Zen Studios",
+        "designedBy": "Peter \"Deep\" Grafl",
+        "gameModes": [
+          "Classic",
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Pro",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_96",
+      "displayName": "E.T. Pinball",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "681",
+        "emulatorId": "10",
+        "gameFileName": "Table_96.pxp",
+        "manufacturer": "Zen Studios",
+        "rom": "96",
+        "category": "Movie",
+        "theme": "Licensed - Universal",
+        "gameType": "Original",
+        "author": "Zen Studios",
+        "designedBy": "Peter Horvath",
+        "gameModes": [
+          "Classic",
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Pro",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_58",
+      "displayName": "Droids",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "680",
+        "emulatorId": "10",
+        "gameFileName": "Table_58.pxp",
+        "manufacturer": "Zen Studios",
+        "rom": "58",
+        "category": "Star Wars",
+        "theme": "Licensed - Star Wars",
+        "gameType": "Original",
+        "author": "Zen Studios",
+        "designedBy": "Thomas Crofts",
+        "gameModes": [
+          "Classic",
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Pro",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_30",
+      "displayName": "Doctor Strange",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "679",
+        "emulatorId": "10",
+        "gameFileName": "Table_30.pxp",
+        "manufacturer": "Zen Studios",
+        "rom": "30",
+        "category": "Marvel",
+        "theme": "Licensed - Marvel",
+        "gameType": "Original",
+        "author": "Zen Studios",
+        "designedBy": "Ivan \"Mad_Boy\" Nicoara",
+        "gameModes": [
+          "Classic",
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Pro",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_22",
+      "displayName": "Deadpool",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "678",
+        "emulatorId": "10",
+        "gameFileName": "Table_22.pxp",
+        "manufacturer": "Zen Studios",
+        "rom": "22",
+        "category": "Marvel",
+        "theme": "Licensed - Marvel",
+        "gameType": "Original",
+        "author": "Zen Studios",
+        "designedBy": "Tamas \"Ypok\" Pokrocz",
+        "gameModes": [
+          "Classic",
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Pro",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_28",
+      "displayName": "Darth Vader",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "677",
+        "emulatorId": "10",
+        "gameFileName": "Table_28.pxp",
+        "manufacturer": "Zen Studios",
+        "rom": "28",
+        "theme": "Licensed - Star Wars",
+        "gameType": "Original",
+        "author": "Zen Studios",
+        "designedBy": "Ivan \"Mad_Boy\" Nicoara",
+        "gameModes": [
+          "Classic",
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Pro",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_1",
+      "displayName": "Civil War",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "676",
+        "emulatorId": "10",
+        "gameFileName": "Table_1.pxp",
+        "manufacturer": "Zen Studios",
+        "year": 2011,
+        "rom": "1",
+        "category": "Marvel",
+        "theme": "Licensed - Marvel",
+        "gameType": "Original",
+        "author": "Zen Studios",
+        "designedBy": "Mate Szeplaki",
+        "gameModes": [
+          "Classic",
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Pro",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_40",
+      "displayName": "Castle Storm",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "675",
+        "emulatorId": "10",
+        "gameFileName": "Table_40.pxp",
+        "manufacturer": "Zen Studios",
+        "year": 2015,
+        "rom": "40",
+        "category": "Fantasy",
+        "theme": "Fantasy",
+        "gameType": "Original",
+        "author": "Zen Studios",
+        "designedBy": "Gabor \"coltos\" Andrassy",
+        "gameModes": [
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice",
+          "Challenge_1Ball",
+          "Challenge_Distance",
+          "Challenge_Flips",
+          "Challenge_Time"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_48",
+      "displayName": "Captain America",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "674",
+        "emulatorId": "10",
+        "gameFileName": "Table_48.pxp",
+        "manufacturer": "Zen Studios",
+        "rom": "48",
+        "category": "Marvel",
+        "theme": "Licensed - Marvel",
+        "gameType": "Original",
+        "author": "Zen Studios",
+        "designedBy": "Viktor Gyorei",
+        "gameModes": [
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice",
+          "Challenge_1Ball",
+          "Challenge_Distance",
+          "Challenge_Flips",
+          "Challenge_Time"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_106",
+      "displayName": "Calrissian Chronicles",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "673",
+        "emulatorId": "10",
+        "gameFileName": "Table_106.pxp",
+        "manufacturer": "Zen Studios",
+        "rom": "106",
+        "theme": "Licensed - Star Wars",
+        "gameType": "Original",
+        "author": "Zen Studios",
+        "designedBy": "Thomas Crofts",
+        "gameModes": [
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice",
+          "Challenge_1Ball",
+          "Challenge_Distance",
+          "Challenge_Flips",
+          "Challenge_Time"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_55",
+      "displayName": "Butters' Very Own Pinball Game",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "672",
+        "emulatorId": "10",
+        "gameFileName": "Table_55.pxp",
+        "manufacturer": "Zen Studios",
+        "year": 2014,
+        "rom": "55",
+        "category": "TV",
+        "theme": "Licensed - South Park",
+        "gameType": "Original",
+        "author": "Zen Studios",
+        "designedBy": "Szucs \"ndever\" David",
+        "gameModes": [
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice",
+          "Challenge_1Ball",
+          "Challenge_Distance",
+          "Challenge_Flips",
+          "Challenge_Time"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_45",
+      "displayName": "Blade",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "671",
+        "emulatorId": "10",
+        "gameFileName": "Table_45.pxp",
+        "manufacturer": "Zen Studios",
+        "rom": "45",
+        "category": "Marvel",
+        "theme": "Licensed - Marvel",
+        "gameType": "Original",
+        "author": "Zen Studios",
+        "designedBy": "Imre \"Emeric\" Szigeti",
+        "gameModes": [
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice",
+          "Challenge_1Ball",
+          "Challenge_Distance",
+          "Challenge_Flips",
+          "Challenge_Time"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_27",
+      "displayName": "Biolab",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "670",
+        "emulatorId": "10",
+        "gameFileName": "Table_27.pxp",
+        "manufacturer": "Zen Studios",
+        "rom": "27",
+        "author": "Zen Studios",
+        "designedBy": "Imre \"Emeric\" Szigeti",
+        "gameModes": [
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice",
+          "Challenge_1Ball",
+          "Challenge_Distance",
+          "Challenge_Flips",
+          "Challenge_Time"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_107",
+      "displayName": "Battle of Mimban",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "669",
+        "emulatorId": "10",
+        "gameFileName": "Table_107.pxp",
+        "manufacturer": "Zen Studios",
+        "year": 2018,
+        "rom": "107",
+        "category": "Star Wars",
+        "theme": "Licensed - Star Wars",
+        "gameType": "Original",
+        "author": "Zen Studios",
+        "designedBy": "Peter Horvath",
+        "gameModes": [
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice",
+          "Challenge_1Ball",
+          "Challenge_Distance",
+          "Challenge_Flips",
+          "Challenge_Time"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_97",
+      "displayName": "Back to the Future Pinball",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "668",
+        "emulatorId": "10",
+        "gameFileName": "Table_97.pxp",
+        "manufacturer": "Zen Studios",
+        "year": 2017,
+        "rom": "97",
+        "category": "Movie",
+        "theme": "Licensed - Universal",
+        "gameType": "Original",
+        "author": "Zen Studios",
+        "designedBy": "Peter \"Deep\" Grafl",
+        "gameModes": [
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice",
+          "Challenge_1Ball",
+          "Challenge_Distance",
+          "Challenge_Flips",
+          "Challenge_Time"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_104",
+      "displayName": "Ahch-To Island",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "667",
+        "emulatorId": "10",
+        "gameFileName": "Table_104.pxp",
+        "manufacturer": "Zen Studios",
+        "year": 2018,
+        "rom": "104",
+        "category": "Sci-Fi",
+        "theme": "Licensed - Star Wars",
+        "gameType": "Original",
+        "author": "Zen Studios",
+        "designedBy": "Szucs \"ndever\" David",
+        "gameModes": [
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice",
+          "Challenge_1Ball",
+          "Challenge_Distance",
+          "Challenge_Flips",
+          "Challenge_Time"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_29",
+      "displayName": "Adventure Land",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "666",
+        "emulatorId": "10",
+        "gameFileName": "Table_29.pxp",
+        "manufacturer": "Zen Studios",
+        "year": 2017,
+        "rom": "29",
+        "category": "Fantasy",
+        "theme": "Fantasy",
+        "gameType": "Original",
+        "author": "Zen Studios",
+        "designedBy": "Tamas \"Ypok\" Pokrocz",
+        "gameVersion": "Steam",
+        "gameModes": [
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice",
+          "Challenge_1Ball",
+          "Challenge_Distance",
+          "Challenge_Flips",
+          "Challenge_Time"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_154",
+      "displayName": "World War Z Pinball",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "655",
+        "emulatorId": "10",
+        "gameFileName": "Table_154.pxp",
+        "manufacturer": "Zen Studios",
+        "year": 2022,
+        "rom": "154",
+        "gameType": "Original",
+        "author": "Zen Studios",
+        "designedBy": "Daniel \"Dolby\" Vigh",
+        "gameVersion": "STEAM",
+        "displayProfile": "FULLDMD",
+        "gameModes": [
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_157",
+      "displayName": "World Cup Soccer",
+      "collection": "Williams",
+      "metadata": {
+        "sourceGameId": "653",
+        "emulatorId": "10",
+        "gameFileName": "Table_157.pxp",
+        "manufacturer": "Williams",
+        "year": 1994,
+        "rom": "157",
+        "theme": "Licenced - Sport",
+        "gameType": "SS",
+        "author": "Zen Studios",
+        "gameVersion": "STEAM",
+        "gameModes": [
+          "Pro",
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_124",
+      "displayName": "White Water",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "651",
+        "emulatorId": "10",
+        "gameFileName": "Table_124.pxp",
+        "manufacturer": "Zen Studios",
+        "year": 1993,
+        "rom": "124",
+        "gameType": "SS",
+        "author": "Zen Studios",
+        "gameVersion": "STEAM",
+        "gameModes": [
+          "Pro",
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_168",
+      "displayName": "Whirlwind",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "650",
+        "emulatorId": "10",
+        "gameFileName": "Table_168.pxp",
+        "manufacturer": "Zen Studios",
+        "year": 1990,
+        "rom": "168",
+        "gameType": "SS",
+        "author": "Zen Studios",
+        "gameVersion": "STEAM",
+        "gameModes": [
+          "Pro",
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_164",
+      "displayName": "Vern's Mysterious Island",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "649",
+        "emulatorId": "10",
+        "gameFileName": "Table_164.pxp",
+        "manufacturer": "Zen Studios",
+        "year": 2023,
+        "rom": "164",
+        "gameType": "Original",
+        "author": "Zen Studios",
+        "designedBy": "Gergo 'Rockger' Ezsias",
+        "gameVersion": "STEAM",
+        "displayProfile": "FULLDMD",
+        "gameModes": [
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_162",
+      "displayName": "Twilight Zone",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "647",
+        "emulatorId": "10",
+        "gameFileName": "Table_162.pxp",
+        "manufacturer": "Zen Studios",
+        "year": 1193,
+        "rom": "162",
+        "gameType": "SS",
+        "author": "Zen Studios",
+        "gameVersion": "STEAM",
+        "gameModes": [
+          "Pro",
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_140",
+      "displayName": "Trolls Pinball",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "646",
+        "emulatorId": "10",
+        "gameFileName": "Table_140.pxp",
+        "manufacturer": "Zen Studios",
+        "year": 2023,
+        "rom": "140",
+        "gameType": "Original",
+        "author": "Zen Studios",
+        "designedBy": "Anna Lengyel",
+        "gameVersion": "STEAM",
+        "gameModes": [
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_136",
+      "displayName": "The Mandalorian",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "644",
+        "emulatorId": "10",
+        "gameFileName": "Table_136.pxp",
+        "manufacturer": "Zen Studios",
+        "year": 2021,
+        "rom": "136",
+        "theme": "Licensed - Star Wars",
+        "gameType": "Original",
+        "author": "Zen Studios",
+        "designedBy": "Peter \"Deep\" Grafl",
+        "gameVersion": "STEAM",
+        "gameModes": [
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_156",
+      "displayName": "Addams Family The",
+      "collection": "Williams",
+      "metadata": {
+        "sourceGameId": "639",
+        "emulatorId": "10",
+        "gameFileName": "Table_156.pxp",
+        "manufacturer": "Williams",
+        "year": 1992,
+        "rom": "156",
+        "category": "Movie",
+        "theme": "Licenced - Movie",
+        "gameType": "SS",
+        "author": "Zen Studios",
+        "launchCustomVar": "FX3",
+        "gameVersion": "STEAM",
+        "gameModes": [
+          "Pro",
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Arcade",
+          "Classic",
+          "Practice",
+          "Challenge_1Ball",
+          "Challenge_Distance",
+          "Challenge_Flips",
+          "Challenge_Time"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_132",
+      "displayName": "Tales of the Arabian Nights",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "638",
+        "emulatorId": "10",
+        "gameFileName": "Table_132.pxp",
+        "manufacturer": "Zen Studios",
+        "year": 1996,
+        "rom": "132",
+        "gameType": "SS",
+        "author": "Zen Studios",
+        "gameVersion": "STEAM",
+        "gameModes": [
+          "Pro",
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_163",
+      "displayName": "Star Trek TNG",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "635",
+        "emulatorId": "10",
+        "gameFileName": "Table_163.pxp",
+        "manufacturer": "Zen Studios",
+        "year": 1993,
+        "rom": "163",
+        "gameType": "SS",
+        "author": "Zen Studios",
+        "gameVersion": "STEAM",
+        "gameModes": [
+          "Pro",
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_113",
+      "displayName": "Sky Pirates:Treasures of the Clouds",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "631",
+        "emulatorId": "10",
+        "gameFileName": "Table_113.pxp",
+        "manufacturer": "Zen Studios",
+        "year": 2023,
+        "rom": "113",
+        "theme": "Fantasy",
+        "gameType": "Original",
+        "author": "Zen Studios",
+        "designedBy": "Peter \"Pewet\" Kovacs",
+        "gameVersion": "STEAM",
+        "displayProfile": "FULLDMD",
+        "gameModes": [
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_66",
+      "displayName": "Secrets of the Deep",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "630",
+        "emulatorId": "10",
+        "gameFileName": "Table_66.pxp",
+        "manufacturer": "Zen Studios",
+        "year": 2013,
+        "rom": "66",
+        "gameType": "Original",
+        "author": "Zen Studios",
+        "designedBy": "Zoltan Vari",
+        "gameVersion": "STEAM",
+        "gameModes": [
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_125",
+      "displayName": "Red and Ted's Road Show",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "627",
+        "emulatorId": "10",
+        "gameFileName": "Table_125.pxp",
+        "manufacturer": "Zen Studios",
+        "year": 1194,
+        "rom": "125",
+        "gameType": "SS",
+        "author": "Zen Studios",
+        "gameVersion": "STEAM",
+        "gameModes": [
+          "Pro",
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_123",
+      "displayName": "Pinball Noir",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "626",
+        "emulatorId": "10",
+        "gameFileName": "Table_123.pxp",
+        "manufacturer": "Zen Studios",
+        "year": 2023,
+        "rom": "123",
+        "gameType": "Original",
+        "author": "Zen Studios",
+        "designedBy": "Zoltan Vari",
+        "gameVersion": "STEAM",
+        "displayProfile": "FULLDMD",
+        "gameModes": [
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_146",
+      "displayName": "Peanuts' Snoopy Pinball",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "625",
+        "emulatorId": "10",
+        "gameFileName": "Table_146.pxp",
+        "manufacturer": "Zen Studios",
+        "year": 2023,
+        "rom": "146",
+        "gameType": "Original",
+        "author": "Zen Studios",
+        "designedBy": "Daniel \"Dolby\" Vigh",
+        "gameVersion": "STEAM",
+        "gameModes": [
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_128",
+      "displayName": "No Good Gofers",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "623",
+        "emulatorId": "10",
+        "gameFileName": "Table_128.pxp",
+        "manufacturer": "Zen Studios",
+        "year": 1997,
+        "rom": "128",
+        "gameType": "SS",
+        "author": "Zen Studios",
+        "gameVersion": "STEAM",
+        "gameModes": [
+          "Pro",
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_130",
+      "displayName": "Monster Bash",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "621",
+        "emulatorId": "10",
+        "gameFileName": "Table_130.pxp",
+        "manufacturer": "Zen Studios",
+        "year": 1998,
+        "rom": "130",
+        "gameType": "SS",
+        "author": "Zen Studios",
+        "gameVersion": "STEAM",
+        "gameModes": [
+          "Pro",
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_139",
+      "displayName": "Kung Fu Panda Pinball",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "612",
+        "emulatorId": "10",
+        "gameFileName": "Table_139.pxp",
+        "manufacturer": "Zen Studios",
+        "year": 2023,
+        "rom": "139",
+        "gameType": "Original",
+        "author": "Zen Studios",
+        "designedBy": "Peter \"Pewet\" Kovacs",
+        "gameVersion": "STEAM",
+        "gameModes": [
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_153",
+      "displayName": "Kong Pinball",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "611",
+        "emulatorId": "10",
+        "gameFileName": "Table_153.pxp",
+        "manufacturer": "Zen Studios",
+        "year": 2023,
+        "rom": "153",
+        "gameType": "Original",
+        "author": "Zen Studios",
+        "designedBy": "Daniel \"Dolby\" Vigh",
+        "gameVersion": "STEAM",
+        "displayProfile": "FULLDMD",
+        "gameModes": [
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_95",
+      "displayName": "Jaws Pinball",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "607",
+        "emulatorId": "10",
+        "gameFileName": "Table_95.pxp",
+        "manufacturer": "Zen Studios",
+        "year": 2017,
+        "rom": "95",
+        "theme": "Licensed - Universal",
+        "gameType": "Original",
+        "author": "Zen Studios",
+        "designedBy": "Szucs \"ndever\" David",
+        "gameVersion": "STEAM",
+        "gameModes": [
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_141",
+      "displayName": "How to Train Your Dragon Pinball",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "604",
+        "emulatorId": "10",
+        "gameFileName": "Table_141.pxp",
+        "manufacturer": "Zen Studios",
+        "year": 2023,
+        "rom": "141",
+        "category": "Movie",
+        "theme": "Licensed - Dreamworks",
+        "gameType": "Original",
+        "author": "Zen Studios",
+        "designedBy": "Zoltan Vari",
+        "gameVersion": "STEAM",
+        "gameModes": [
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_138",
+      "displayName": "Hasbro's MY LITTLE PONY",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "603",
+        "emulatorId": "10",
+        "gameFileName": "Table_138.pxp",
+        "manufacturer": "Zen Studios",
+        "year": 2022,
+        "rom": "138",
+        "category": "TV",
+        "theme": "Licensed - Hasbro",
+        "gameType": "Original",
+        "author": "Zen Studios",
+        "designedBy": "Thomas Crofts",
+        "gameVersion": "STEAM",
+        "gameModes": [
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_155",
+      "displayName": "Grimm Tales",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "601",
+        "emulatorId": "10",
+        "gameFileName": "Table_155.pxp",
+        "manufacturer": "Zen Studios",
+        "year": 2022,
+        "rom": "155",
+        "category": "Fantasy",
+        "theme": "Fantasy",
+        "gameType": "Original",
+        "author": "Zen Studios",
+        "designedBy": "Zoltan \"ZaPo\" Pataki",
+        "gameVersion": "STEAM",
+        "displayProfile": "FULLDMD",
+        "gameModes": [
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_160",
+      "displayName": "Godzilla vs Kong Pinball",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "600",
+        "emulatorId": "10",
+        "gameFileName": "Table_160.pxp",
+        "manufacturer": "Zen Studios",
+        "year": 2023,
+        "rom": "160",
+        "category": "Movie",
+        "theme": "Licensed - Legendary",
+        "gameType": "Original",
+        "author": "Zen Studios",
+        "designedBy": "Thomas Crofts",
+        "gameVersion": "STEAM",
+        "displayProfile": "FULLDMD",
+        "gameModes": [
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_158",
+      "displayName": "Godzilla Pinball",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "599",
+        "emulatorId": "10",
+        "gameFileName": "Table_158.pxp",
+        "manufacturer": "Zen Studios",
+        "year": 2023,
+        "rom": "158",
+        "category": "Movie",
+        "theme": "Licensed - Legendary",
+        "gameType": "Original",
+        "author": "Zen Studios",
+        "designedBy": "Gaspar Viragos",
+        "gameVersion": "STEAM",
+        "displayProfile": "FULLDMD",
+        "gameModes": [
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_145",
+      "displayName": "Garfield Pinball",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "597",
+        "emulatorId": "10",
+        "gameFileName": "Table_145.pxp",
+        "manufacturer": "Zen Studios",
+        "year": 2022,
+        "rom": "145",
+        "category": "TV",
+        "theme": "Licensed - Nickolodeon",
+        "gameType": "Original",
+        "author": "Zen Studios",
+        "designedBy": "Thomas Crofts",
+        "gameVersion": "STEAM",
+        "gameModes": [
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_112",
+      "displayName": "Curse of the Mummy",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "586",
+        "emulatorId": "10",
+        "gameFileName": "Table_112.pxp",
+        "manufacturer": "Zen Studios",
+        "year": 2022,
+        "rom": "112",
+        "gameType": "Original",
+        "author": "Zen Studios",
+        "designedBy": "Anna Lengyel & Peter \"Deep\" Grafl",
+        "gameVersion": "STEAM",
+        "displayProfile": "FULLDMD",
+        "gameModes": [
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_161",
+      "displayName": "Crypt of the NecroDancer Pinball",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "585",
+        "emulatorId": "10",
+        "gameFileName": "Table_161.pxp",
+        "manufacturer": "Zen Studios",
+        "year": 2023,
+        "rom": "161",
+        "theme": "Licensed - Video Game",
+        "gameType": "Original",
+        "author": "Zen Studios",
+        "designedBy": "Gergely Vadocz",
+        "gameVersion": "STEAM",
+        "displayProfile": "FULLDMD",
+        "gameModes": [
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_131",
+      "displayName": "Creature from the Black Lagoon",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "584",
+        "emulatorId": "10",
+        "gameFileName": "Table_131.pxp",
+        "manufacturer": "Zen Studios",
+        "year": 1992,
+        "rom": "131",
+        "gameType": "SS",
+        "author": "Zen Studios",
+        "gameVersion": "STEAM",
+        "gameModes": [
+          "Pro",
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_137",
+      "displayName": "Classic Collectibles",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "583",
+        "emulatorId": "10",
+        "gameFileName": "Table_137.pxp",
+        "manufacturer": "Zen Studios",
+        "year": 2021,
+        "rom": "137",
+        "theme": "Licensed - Star Wars",
+        "gameType": "Original",
+        "author": "Zen Studios",
+        "designedBy": "Zoltan Vari",
+        "gameVersion": "STEAM",
+        "gameModes": [
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_127",
+      "displayName": "Cirqus Voltaire",
+      "collection": "Williams",
+      "metadata": {
+        "sourceGameId": "581",
+        "emulatorId": "10",
+        "gameFileName": "Table_127.pxp",
+        "manufacturer": "Williams",
+        "year": 1997,
+        "rom": "127",
+        "gameType": "SS",
+        "author": "Zen Studios",
+        "designedBy": "Peter \"Deep\" Grafl, John Popadiuk",
+        "gameVersion": "STEAM",
+        "gameModes": [
+          "Pro",
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_151",
+      "displayName": "Brothers in Arms: Win the War Pinball",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "577",
+        "emulatorId": "10",
+        "gameFileName": "Table_151.pxp",
+        "manufacturer": "Zen Studios",
+        "year": 2023,
+        "rom": "151",
+        "category": "Video Games",
+        "theme": "Licensed - Gearbox",
+        "gameType": "Original",
+        "author": "Zen Studios",
+        "designedBy": "Thomas Crofts",
+        "gameVersion": "STEAM",
+        "displayProfile": "FULLDMD",
+        "gameModes": [
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice",
+          "Challenge_1Ball",
+          "Challenge_Distance",
+          "Challenge_Flips",
+          "Challenge_Time"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_152",
+      "displayName": "Borderlands: Vault Hunter Pinball",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "576",
+        "emulatorId": "10",
+        "gameFileName": "Table_152.pxp",
+        "manufacturer": "Zen Studios",
+        "year": 2023,
+        "rom": "152",
+        "category": "Video Games",
+        "theme": "Licensed - Gearbox",
+        "gameType": "Original",
+        "author": "Zen Studios",
+        "designedBy": "Zoltan Vari",
+        "gameVersion": "STEAM",
+        "displayProfile": "FULLDMD",
+        "gameModes": [
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "arcade",
+          "Classic",
+          "Practice",
+          "Challenge_1Ball",
+          "Challenge_Distance",
+          "Challenge_Flips",
+          "Challenge_Time"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_53",
+      "displayName": "Boba Fett",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "575",
+        "emulatorId": "10",
+        "gameFileName": "Table_53.pxp",
+        "manufacturer": "Zen Studios",
+        "year": 2013,
+        "rom": "53",
+        "category": "Star Wars",
+        "theme": "Licensed - Star Wars",
+        "gameType": "Original",
+        "author": "Zen Studios",
+        "designedBy": "Zoltan Vari",
+        "gameVersion": "STEAM",
+        "gameModes": [
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice",
+          "Challenge_1Ball",
+          "Challenge_Distance",
+          "Challenge_Flips",
+          "Challenge_Time"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_165",
+      "displayName": "A Samurai's Vengeance",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "568",
+        "emulatorId": "10",
+        "gameFileName": "Table_165.pxp",
+        "manufacturer": "Zen Studios",
+        "year": 2023,
+        "rom": "165",
+        "category": "Fantasy",
+        "theme": "Fantasy",
+        "gameType": "Original",
+        "author": "Zen Studios",
+        "designedBy": "Gergo 'rockger' Ezsias",
+        "launchCustomVar": "FX3",
+        "gameVersion": "STEAM",
+        "displayProfile": "FULLDMD",
+        "gameModes": [
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice",
+          "Challenge_1Ball",
+          "Challenge_Distance",
+          "Challenge_Flips",
+          "Challenge_Time"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_147",
+      "displayName": "Wrath of the Elder Gods",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "562",
+        "emulatorId": "10",
+        "gameFileName": "Table_147.pxp",
+        "manufacturer": "Zen Studios",
+        "year": 2022,
+        "rom": "147",
+        "gameType": "Original",
+        "author": "Zen Studios",
+        "designedBy": "Gergely Vadocz",
+        "gameVersion": "STEAM",
+        "displayProfile": "FULLDMD",
+        "gameModes": [
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_75",
+      "displayName": "Wild West Rampage",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "557",
+        "emulatorId": "10",
+        "gameFileName": "Table_75.pxp",
+        "manufacturer": "Zen Studios",
+        "year": 2015,
+        "rom": "75",
+        "gameType": "Original",
+        "author": "Zen Studios",
+        "designedBy": "Szucs \"ndever\" David",
+        "launchCustomVar": "FX3",
+        "gameVersion": "STEAM",
+        "gameModes": [
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice",
+          "Challenge_1Ball",
+          "Challenge_Distance",
+          "Challenge_Flips",
+          "Challenge_Time"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_117",
+      "displayName": "Theatre of Magic",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "549",
+        "emulatorId": "10",
+        "gameFileName": "Table_117.pxp",
+        "manufacturer": "Zen Studios",
+        "year": 1995,
+        "rom": "117",
+        "gameType": "SS",
+        "author": "Zen Studios",
+        "gameVersion": "STEAM",
+        "gameModes": [
+          "Pro",
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_120",
+      "displayName": "Party Zone The",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "548",
+        "emulatorId": "10",
+        "gameFileName": "Table_120.pxp",
+        "manufacturer": "Zen Studios",
+        "year": 1991,
+        "rom": "120",
+        "gameType": "SS",
+        "author": "Zen Studios",
+        "gameVersion": "STEAM",
+        "gameModes": [
+          "Pro",
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_148",
+      "displayName": "The Machine : Bride of Pin-Bot",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "546",
+        "emulatorId": "10",
+        "gameFileName": "Table_148.pxp",
+        "manufacturer": "Zen Studios",
+        "year": 1991,
+        "rom": "148",
+        "gameType": "SS",
+        "author": "Zen Studios",
+        "gameVersion": "STEAM",
+        "gameModes": [
+          "Pro",
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_111",
+      "displayName": "Getaway: High Speed II The",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "543",
+        "emulatorId": "10",
+        "gameFileName": "Table_111.pxp",
+        "manufacturer": "Zen Studios",
+        "year": 1992,
+        "rom": "111",
+        "gameType": "SS",
+        "author": "Zen Studios",
+        "gameVersion": "STEAM",
+        "gameModes": [
+          "Pro",
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_121",
+      "displayName": "Champion Pub The",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "540",
+        "emulatorId": "10",
+        "gameFileName": "Table_121.pxp",
+        "manufacturer": "Zen Studios",
+        "year": 1998,
+        "rom": "121",
+        "gameType": "SS",
+        "author": "Zen Studios",
+        "gameVersion": "STEAM",
+        "gameModes": [
+          "Pro",
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_149",
+      "displayName": "Swords of Fury",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "537",
+        "emulatorId": "10",
+        "gameFileName": "Table_149.pxp",
+        "manufacturer": "Zen Studios",
+        "year": 1988,
+        "rom": "149",
+        "gameType": "SS",
+        "author": "Zen Studios",
+        "gameVersion": "STEAM",
+        "gameModes": [
+          "Pro",
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_129",
+      "displayName": "Space Station",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "532",
+        "emulatorId": "10",
+        "gameFileName": "Table_129.pxp",
+        "manufacturer": "Zen Studios",
+        "year": 1987,
+        "rom": "129",
+        "gameType": "SS",
+        "author": "Zen Studios",
+        "gameVersion": "STEAM",
+        "gameModes": [
+          "Pro",
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_33",
+      "displayName": "Sorcerer's Lair",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "531",
+        "emulatorId": "10",
+        "gameFileName": "Table_33.pxp",
+        "manufacturer": "Zen Studios",
+        "year": 2013,
+        "rom": "33",
+        "gameType": "Original",
+        "author": "Zen Studios",
+        "designedBy": "Viktor Gyorei",
+        "gameVersion": "STEAM",
+        "gameModes": [
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_122",
+      "displayName": "Safe Cracker",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "526",
+        "emulatorId": "10",
+        "gameFileName": "Table_122.pxp",
+        "manufacturer": "Zen Studios",
+        "year": 1196,
+        "rom": "122",
+        "gameType": "SS",
+        "author": "Zen Studios",
+        "gameVersion": "STEAM",
+        "gameModes": [
+          "Pro",
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_109",
+      "displayName": "Medieval Madness",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "515",
+        "emulatorId": "10",
+        "gameFileName": "Table_109.pxp",
+        "manufacturer": "Zen Studios",
+        "year": 1997,
+        "rom": "109",
+        "gameType": "SS",
+        "author": "Zen Studios",
+        "gameVersion": "STEAM",
+        "gameModes": [
+          "Pro",
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_110",
+      "displayName": "JunkYard",
+      "collection": "Williams",
+      "metadata": {
+        "sourceGameId": "502",
+        "emulatorId": "10",
+        "gameFileName": "Table_110.pxp",
+        "manufacturer": "Williams",
+        "year": 1996,
+        "rom": "110",
+        "gameType": "SS",
+        "author": "Zen Studios",
+        "gameVersion": "STEAM",
+        "gameModes": [
+          "Pro",
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_133",
+      "displayName": "Indiana Jones: The Pinball Adventure",
+      "collection": "Williams",
+      "metadata": {
+        "sourceGameId": "499",
+        "emulatorId": "10",
+        "gameFileName": "Table_133.pxp",
+        "manufacturer": "Williams",
+        "year": 1993,
+        "rom": "133",
+        "theme": "Licenced - Movie",
+        "gameType": "SS",
+        "author": "Zen Studios",
+        "gameVersion": "STEAM",
+        "gameModes": [
+          "Pro",
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_150",
+      "displayName": "Homeworld Journey to Hiigara",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "496",
+        "emulatorId": "10",
+        "gameFileName": "Table_150.pxp",
+        "manufacturer": "Zen Studios",
+        "year": 2022,
+        "rom": "150",
+        "category": "Video Games",
+        "theme": "Licensed - Gearbox",
+        "gameType": "Original",
+        "author": "Zen Studios",
+        "designedBy": "Anna Lengyel",
+        "gameVersion": "STEAM",
+        "displayProfile": "FULLDMD",
+        "gameModes": [
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_134",
+      "displayName": "FunHouse",
+      "collection": "williams",
+      "metadata": {
+        "sourceGameId": "488",
+        "emulatorId": "10",
+        "gameFileName": "Table_134.pxp",
+        "manufacturer": "williams",
+        "year": 1990,
+        "rom": "134",
+        "gameType": "SS",
+        "author": "Zen Studios",
+        "gameVersion": "STEAM",
+        "gameModes": [
+          "Pro",
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_108",
+      "displayName": "Fish Tales",
+      "collection": "Williams",
+      "metadata": {
+        "sourceGameId": "487",
+        "emulatorId": "10",
+        "gameFileName": "Table_108.pxp",
+        "manufacturer": "Williams",
+        "year": 1992,
+        "rom": "108",
+        "gameType": "SS",
+        "author": "Zen Studios",
+        "launchCustomVar": "PFX",
+        "gameVersion": "STEAM",
+        "gameModes": [
+          "Pro",
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_135",
+      "displayName": "Dr. Dude and his Excellent Ray (FX)",
+      "collection": "Bally",
+      "metadata": {
+        "sourceGameId": "479",
+        "emulatorId": "10",
+        "gameFileName": "Table_135.pxp",
+        "manufacturer": "Bally",
+        "year": 1990,
+        "rom": "135",
+        "theme": "Sci-Fi",
+        "gameType": "SS",
+        "author": "Zen Studios",
+        "gameVersion": "STEAM",
+        "gameModes": [
+          "Pro",
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_118",
+      "displayName": "Black Rose",
+      "collection": "Bally",
+      "metadata": {
+        "sourceGameId": "462",
+        "emulatorId": "10",
+        "gameFileName": "Table_118.pxp",
+        "manufacturer": "Bally",
+        "year": 1992,
+        "rom": "118",
+        "theme": "Fantasy",
+        "gameType": "SS",
+        "author": "Zen Studios",
+        "launchCustomVar": "FX3",
+        "gameVersion": "STEAM",
+        "gameModes": [
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice",
+          "Challenge_1Ball",
+          "Challenge_Distance",
+          "Challenge_Flips",
+          "Challenge_Time"
+        ],
+        "isVisible": true
+      }
+    },
+    {
+      "id": "Table_119",
+      "displayName": "Attack from Mars",
+      "collection": "Bally",
+      "metadata": {
+        "sourceGameId": "458",
+        "emulatorId": "10",
+        "gameFileName": "Table_119.pxp",
+        "manufacturer": "Bally",
+        "year": 1995,
+        "rom": "119",
+        "category": "Sci-Fi",
+        "theme": "Sci-Fi",
+        "gameType": "SS",
+        "author": "Zen Studios",
+        "launchCustomVar": "FX3",
+        "gameVersion": "STEAM",
+        "gameModes": [
+          "Hotseat2",
+          "Hotseat3",
+          "Hotseat4",
+          "Classic",
+          "Practice",
+          "Challenge_1Ball",
+          "Challenge_Distance",
+          "Challenge_Flips",
+          "Challenge_Time",
+          "Pro"
+        ],
+        "isVisible": true
+      }
+    }
+  ]
+}

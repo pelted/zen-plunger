@@ -13,4 +13,8 @@
     <ProjectReference Include="..\ZenPlunger.Platform.Windows\ZenPlunger.Platform.Windows.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Include="..\..\data\tables.sample.json" Link="data\tables.sample.json" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
 </Project>
