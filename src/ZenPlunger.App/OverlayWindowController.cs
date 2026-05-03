@@ -5,35 +5,38 @@ namespace ZenPlunger.App;
 
 public sealed class OverlayWindowController : IOverlayController, IDisposable
 {
-    private readonly OverlayWindow _overlayWindow;
+    private readonly Func<OverlayWindow> _overlayWindowFactory;
+    private OverlayWindow? _overlayWindow;
     private bool _disposed;
 
-    public OverlayWindowController(OverlayWindow overlayWindow)
+    public OverlayWindowController(Func<OverlayWindow> overlayWindowFactory)
     {
-        ArgumentNullException.ThrowIfNull(overlayWindow);
+        ArgumentNullException.ThrowIfNull(overlayWindowFactory);
 
-        _overlayWindow = overlayWindow;
+        _overlayWindowFactory = overlayWindowFactory;
     }
 
-    public bool IsVisible => _overlayWindow.IsVisible;
+    public bool IsVisible => _overlayWindow?.IsVisible == true;
 
     public Task ShowAsync(CancellationToken cancellationToken = default)
     {
         cancellationToken.ThrowIfCancellationRequested();
         ThrowIfDisposed();
 
-        if (!_overlayWindow.IsVisible)
+        var overlayWindow = GetOrCreateOverlayWindow();
+
+        if (!overlayWindow.IsVisible)
         {
-            _overlayWindow.Show();
+            overlayWindow.Show();
         }
 
-        if (_overlayWindow.WindowState == WindowState.Minimized)
+        if (overlayWindow.WindowState == WindowState.Minimized)
         {
-            _overlayWindow.WindowState = WindowState.Normal;
+            overlayWindow.WindowState = WindowState.Normal;
         }
 
-        _overlayWindow.Activate();
-        _overlayWindow.Focus();
+        overlayWindow.Activate();
+        overlayWindow.Focus();
 
         return Task.CompletedTask;
     }
@@ -43,7 +46,7 @@ public sealed class OverlayWindowController : IOverlayController, IDisposable
         cancellationToken.ThrowIfCancellationRequested();
         ThrowIfDisposed();
 
-        if (_overlayWindow.IsVisible)
+        if (_overlayWindow?.IsVisible == true)
         {
             _overlayWindow.Hide();
         }
@@ -61,9 +64,19 @@ public sealed class OverlayWindowController : IOverlayController, IDisposable
             return;
         }
 
-        _overlayWindow.PrepareForClose();
-        _overlayWindow.Close();
+        if (_overlayWindow is not null)
+        {
+            _overlayWindow.PrepareForClose();
+            _overlayWindow.Close();
+        }
+
         _disposed = true;
+    }
+
+    private OverlayWindow GetOrCreateOverlayWindow()
+    {
+        _overlayWindow ??= _overlayWindowFactory();
+        return _overlayWindow;
     }
 
     private void ThrowIfDisposed()

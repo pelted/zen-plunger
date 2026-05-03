@@ -68,11 +68,11 @@ The WPF app copies this file to the build output and loads it on startup through
 
 - `schemaVersion`: catalog schema version. Current version is `1`.
 - `tables`: list of known Pinball FX tables.
-- `id`: stable catalog and launch ID used for Pinball FX launching. Prefer upstream IDs such as `Table_201`.
+- `id`: stable catalog and cabinet-media ID. Prefer upstream identifiers such as `Table_201` so backglass and DMD assets stay aligned with Pinball FX cabinet naming.
 - `displayName`: user-facing table name.
 - `collection`: optional grouping, such as `Williams` or `Zen Originals`.
 - `metadata.sourceGameId`: source-specific game identifier from an imported catalog.
-- `metadata.sourceTableId`: source-specific table identifier when the upstream export distinguishes it from the launch ID.
+- `metadata.sourceTableId`: source-specific numeric table identifier for Pinball FX launching when the upstream export distinguishes it from the stable `Table_*` media ID.
 - `metadata.features`: feature tags imported from upstream data, such as cabinet or media capabilities.
 - `metadata.sourceFields`: full source metadata preserved during import as raw string values so upstream fields are not lost while the typed schema evolves.
 - `assets.backglass.path`: path to the backglass image or media asset.

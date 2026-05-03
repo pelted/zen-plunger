@@ -1,5 +1,8 @@
 using System.Diagnostics;
+using System.IO;
+using System.ComponentModel;
 using ZenPlunger.Core.Launching;
+using ZenPlunger.Platform.Windows.Configuration;
 
 namespace ZenPlunger.Platform.Windows.Launching;
 
@@ -7,13 +10,23 @@ public sealed class SteamPinballFxLauncher : IPinballFxLauncher
 {
     public const string PinballFxSteamAppId = "2328760";
 
-    private readonly string _steamExecutablePath;
+    private readonly string _fallbackSteamExecutablePath;
+    private readonly SteamLaunchSettings? _settings;
 
     public SteamPinballFxLauncher(string steamExecutablePath = "steam.exe")
     {
         ArgumentException.ThrowIfNullOrWhiteSpace(steamExecutablePath);
 
-        _steamExecutablePath = steamExecutablePath;
+        _fallbackSteamExecutablePath = steamExecutablePath;
+    }
+
+    public SteamPinballFxLauncher(SteamLaunchSettings settings, string fallbackSteamExecutablePath = "steam.exe")
+    {
+        ArgumentNullException.ThrowIfNull(settings);
+        ArgumentException.ThrowIfNullOrWhiteSpace(fallbackSteamExecutablePath);
+
+        _settings = settings;
+        _fallbackSteamExecutablePath = fallbackSteamExecutablePath;
     }
 
     public Task LaunchAsync(LaunchRequest request, CancellationToken cancellationToken = default)
@@ -21,11 +34,21 @@ public sealed class SteamPinballFxLauncher : IPinballFxLauncher
         ArgumentNullException.ThrowIfNull(request);
         cancellationToken.ThrowIfCancellationRequested();
 
-        using var process = Process.Start(CreateStartInfo(request));
-
-        if (process is null)
+        try
         {
-            throw new InvalidOperationException("Steam did not start a process for the Pinball FX launch request.");
+            using var process = Process.Start(CreateStartInfo(request));
+
+            if (process is null)
+            {
+                throw new InvalidOperationException("Steam did not start a process for the Pinball FX launch request.");
+            }
+        }
+        catch (Win32Exception ex)
+        {
+            var steamExecutablePath = ResolveSteamExecutablePath();
+            throw new InvalidOperationException(
+                $"Failed to start Steam using '{steamExecutablePath}'. {ex.Message}",
+                ex);
         }
 
         return Task.CompletedTask;
@@ -34,18 +57,31 @@ public sealed class SteamPinballFxLauncher : IPinballFxLauncher
     public ProcessStartInfo CreateStartInfo(LaunchRequest request)
     {
         ArgumentNullException.ThrowIfNull(request);
-        ArgumentException.ThrowIfNullOrWhiteSpace(request.Table.Id);
+
+        var launchTableId = ResolveLaunchTableId(request.Table);
+
+        var steamExecutablePath = ResolveSteamExecutablePath();
 
         var startInfo = new ProcessStartInfo
         {
-            FileName = _steamExecutablePath,
-            UseShellExecute = false
+            FileName = steamExecutablePath,
+            UseShellExecute = true
         };
+
+        if (Path.IsPathRooted(steamExecutablePath))
+        {
+            var workingDirectory = Path.GetDirectoryName(steamExecutablePath);
+
+            if (!string.IsNullOrWhiteSpace(workingDirectory))
+            {
+                startInfo.WorkingDirectory = workingDirectory;
+            }
+        }
 
         startInfo.ArgumentList.Add("-applaunch");
         startInfo.ArgumentList.Add(PinballFxSteamAppId);
         startInfo.ArgumentList.Add("-Table");
-        startInfo.ArgumentList.Add(request.Table.Id);
+        startInfo.ArgumentList.Add(launchTableId);
 
         if (!string.IsNullOrWhiteSpace(request.GameMode))
         {
@@ -55,5 +91,27 @@ public sealed class SteamPinballFxLauncher : IPinballFxLauncher
 
         return startInfo;
     }
-}
 
+    private string ResolveSteamExecutablePath()
+    {
+        if (!string.IsNullOrWhiteSpace(_settings?.SteamFolderPath))
+        {
+            return Path.Combine(_settings.SteamFolderPath.Trim(), "steam.exe");
+        }
+
+        return _fallbackSteamExecutablePath;
+    }
+
+    private static string ResolveLaunchTableId(Core.Tables.PinballTable table)
+    {
+        ArgumentNullException.ThrowIfNull(table);
+
+        if (!string.IsNullOrWhiteSpace(table.Metadata?.SourceTableId))
+        {
+            return table.Metadata.SourceTableId;
+        }
+
+        ArgumentException.ThrowIfNullOrWhiteSpace(table.Id);
+        return table.Id;
+    }
+}

@@ -61,9 +61,21 @@
             </Grid>
         </Border>
 
-        <DockPanel Grid.Row="2"
-                   LastChildFill="True">
-            <StackPanel DockPanel.Dock="Right"
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+
+            <TextBlock x:Name="OverlayStatusText"
+                       Grid.Column="0"
+                       Margin="0,0,16,0"
+                       VerticalAlignment="Center"
+                       Foreground="#AAB3C0"
+                       TextWrapping="Wrap"
+                       Text="Use Ctrl+Alt+Space to toggle the overlay." />
+
+            <StackPanel Grid.Column="1"
                         Orientation="Horizontal">
                 <Button x:Name="OverlayRefreshStatusButton"
                         Width="130"
@@ -71,23 +83,30 @@
                         Margin="0,0,12,0"
                         Click="RefreshStatusButton_Click"
                         Content="Refresh Status" />
+                <Button x:Name="ExitTableButton"
+                        Width="130"
+                        Height="40"
+                        Margin="0,0,12,0"
+                        Click="ExitTableButton_Click"
+                        Content="Exit Table" />
                 <Button x:Name="HideOverlayButton"
                         Width="130"
                         Height="40"
                         Margin="0,0,12,0"
                         Click="HideOverlayButton_Click"
                         Content="Hide Overlay" />
+                <Button x:Name="WarmRelaunchButton"
+                        Width="160"
+                        Height="40"
+                        Margin="0,0,12,0"
+                        Click="WarmRelaunchButton_Click"
+                        Content="Warm Relaunch" />
                 <Button x:Name="OverlayLaunchButton"
                         Width="180"
                         Height="40"
                         Click="LaunchButton_Click"
                         Content="Launch Selected Table" />
             </StackPanel>
-
-            <TextBlock x:Name="OverlayStatusText"
-                       VerticalAlignment="Center"
-                       Foreground="#AAB3C0"
-                       Text="Use Ctrl+Alt+Space to toggle the overlay." />
-        </DockPanel>
+        </Grid>
     </Grid>
 </Window>

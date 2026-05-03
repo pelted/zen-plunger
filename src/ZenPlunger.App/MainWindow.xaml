@@ -35,6 +35,34 @@
                        Foreground="#D3B97A"
                        FontSize="14"
                        Margin="0,8,0,0" />
+
+            <Grid Margin="0,16,0,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+
+                <TextBlock Grid.Column="0"
+                           Margin="0,0,12,0"
+                           VerticalAlignment="Center"
+                           Foreground="#DDE5EE"
+                           Text="Steam Folder" />
+                <TextBox x:Name="SteamFolderPathTextBox"
+                         Grid.Column="1"
+                         MinWidth="340"
+                         Padding="8,6"
+                         Background="#101318"
+                         BorderBrush="#303844"
+                         Foreground="#F4F7FA" />
+                <Button x:Name="SaveSteamFolderButton"
+                        Grid.Column="2"
+                        Width="150"
+                        Height="34"
+                        Margin="12,0,0,0"
+                        Click="SaveSteamFolderButton_Click"
+                        Content="Save Steam Path" />
+            </Grid>
         </StackPanel>
 
         <Border Grid.Row="1"
@@ -64,9 +92,21 @@
             </Grid>
         </Border>
 
-        <DockPanel Grid.Row="2"
-                   LastChildFill="True">
-            <StackPanel DockPanel.Dock="Right"
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+
+            <TextBlock x:Name="StatusText"
+                       Grid.Column="0"
+                       Margin="0,0,16,0"
+                       VerticalAlignment="Center"
+                       Foreground="#AAB3C0"
+                       TextWrapping="Wrap"
+                       Text="Select a table to launch via Steam." />
+
+            <StackPanel Grid.Column="1"
                         Orientation="Horizontal">
                 <Button x:Name="ShowOverlayButton"
                         Width="130"
@@ -86,10 +126,6 @@
                         Click="LaunchButton_Click"
                         Content="Launch Table" />
             </StackPanel>
-            <TextBlock x:Name="StatusText"
-                       VerticalAlignment="Center"
-                       Foreground="#AAB3C0"
-                       Text="Select a table to launch via Steam." />
-        </DockPanel>
+        </Grid>
     </Grid>
 </Window>
