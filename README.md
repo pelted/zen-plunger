@@ -85,6 +85,17 @@ This will install or update all required tools via `winget` and create the expec
 
 ---
 
+## Repository Structure
+
+    ZenPlunger.slnx
+    Directory.Build.props
+    src\
+      ZenPlunger.App\                WPF shell application
+      ZenPlunger.Core\               Platform-neutral contracts and models
+      ZenPlunger.Platform.Windows\   Windows and Steam integration
+
+---
+
 ## Technology Stack
 
 ### Core

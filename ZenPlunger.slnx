@@ -1,0 +1,7 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/ZenPlunger.App/ZenPlunger.App.csproj" />
+    <Project Path="src/ZenPlunger.Core/ZenPlunger.Core.csproj" />
+    <Project Path="src/ZenPlunger.Platform.Windows/ZenPlunger.Platform.Windows.csproj" />
+  </Folder>
+</Solution>
