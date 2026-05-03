@@ -6,35 +6,6 @@ namespace ZenPlunger.Platform.Windows.Data;
 
 public sealed class JsonTableCatalogStore : ITableCatalogStore, ITableCatalogImporter
 {
-    private static readonly HashSet<string> KnownPinupPopperFields = new(StringComparer.OrdinalIgnoreCase)
-    {
-        "AltRunMode",
-        "Author",
-        "Category",
-        "CUSTOM2",
-        "DesignedBy",
-        "DirGames",
-        "DirMedia",
-        "EMUID",
-        "EMUID_1",
-        "Features",
-        "GAMEVER",
-        "GameDisplay",
-        "GameFileName",
-        "GameID",
-        "GameName",
-        "GameTheme",
-        "GameType",
-        "GameYear",
-        "LaunchCustomVar",
-        "Manufact",
-        "Notes",
-        "ROM",
-        "TableID",
-        "TableId",
-        "Visible"
-    };
-
     private static readonly JsonSerializerOptions JsonOptions = new()
     {
         PropertyNameCaseInsensitive = true,
@@ -164,7 +135,7 @@ public sealed class JsonTableCatalogStore : ITableCatalogStore, ITableCatalogImp
                     Features: SplitList(GetString(game, "Features"), ',', ';', '|'),
                     GameDirectory: EmptyToNull(GetString(game, "DirGames")),
                     MediaDirectory: EmptyToNull(GetString(game, "DirMedia")),
-                    AdditionalSourceFields: CaptureAdditionalSourceFields(game),
+                    SourceFields: CaptureSourceFields(game),
                     IsVisible: GetString(game, "Visible") != "0"),
                 Notes: EmptyToNull(GetString(game, "Notes"))));
         }
@@ -226,17 +197,12 @@ public sealed class JsonTableCatalogStore : ITableCatalogStore, ITableCatalogImp
         return values.Length == 0 ? null : values;
     }
 
-    private static IReadOnlyDictionary<string, string>? CaptureAdditionalSourceFields(JsonElement game)
+    private static IReadOnlyDictionary<string, string>? CaptureSourceFields(JsonElement game)
     {
-        Dictionary<string, string>? additionalFields = null;
+        Dictionary<string, string>? sourceFields = null;
 
         foreach (var property in game.EnumerateObject())
         {
-            if (KnownPinupPopperFields.Contains(property.Name))
-            {
-                continue;
-            }
-
             var value = GetSourceFieldValue(property.Value);
 
             if (string.IsNullOrWhiteSpace(value))
@@ -244,11 +210,11 @@ public sealed class JsonTableCatalogStore : ITableCatalogStore, ITableCatalogImp
                 continue;
             }
 
-            additionalFields ??= new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase);
-            additionalFields[property.Name] = value.Trim();
+            sourceFields ??= new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase);
+            sourceFields[property.Name] = value.Trim();
         }
 
-        return additionalFields;
+        return sourceFields;
     }
 
     private static string? GetSourceFieldValue(JsonElement value) =>

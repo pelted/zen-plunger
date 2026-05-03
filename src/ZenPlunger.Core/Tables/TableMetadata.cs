@@ -20,5 +20,5 @@ public sealed record TableMetadata(
     IReadOnlyList<string>? Features = null,
     string? GameDirectory = null,
     string? MediaDirectory = null,
-    IReadOnlyDictionary<string, string>? AdditionalSourceFields = null,
+    IReadOnlyDictionary<string, string>? SourceFields = null,
     bool IsVisible = true);

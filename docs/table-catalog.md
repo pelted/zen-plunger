@@ -21,7 +21,7 @@ The WPF app copies this file to the build output and loads it on startup through
   "schemaVersion": 1,
   "tables": [
     {
-      "id": "Williams_Medieval_Madness",
+      "id": "Table_109",
       "displayName": "Medieval Madness",
       "collection": "Williams",
       "metadata": {
@@ -30,7 +30,12 @@ The WPF app copies this file to the build output and loads it on startup through
         "manufacturer": "Williams",
         "features": ["Pro", "SSF"],
         "gameModes": ["Hotseat2", "Classic"],
-        "isVisible": true
+        "isVisible": true,
+        "sourceFields": {
+          "GameName": "Table_109",
+          "TableID": "109",
+          "Features": "Pro;SSF"
+        }
       },
       "assets": {
         "backglass": {
@@ -63,13 +68,13 @@ The WPF app copies this file to the build output and loads it on startup through
 
 - `schemaVersion`: catalog schema version. Current version is `1`.
 - `tables`: list of known Pinball FX tables.
-- `id`: Pinball FX table ID used for launching.
+- `id`: stable catalog and launch ID used for Pinball FX launching. Prefer upstream IDs such as `Table_201`.
 - `displayName`: user-facing table name.
 - `collection`: optional grouping, such as `Williams` or `Zen Originals`.
 - `metadata.sourceGameId`: source-specific game identifier from an imported catalog.
 - `metadata.sourceTableId`: source-specific table identifier when the upstream export distinguishes it from the launch ID.
 - `metadata.features`: feature tags imported from upstream data, such as cabinet or media capabilities.
-- `metadata.additionalSourceFields`: extra source fields preserved during import when they are not yet modeled directly.
+- `metadata.sourceFields`: full source metadata preserved during import as raw string values so upstream fields are not lost while the typed schema evolves.
 - `assets.backglass.path`: path to the backglass image or media asset.
 - `assets.backglass.placement`: target screen rectangle for the backglass asset.
 - `assets.dmd.path`: path to the DMD image or media asset.
@@ -87,7 +92,7 @@ The WPF app copies this file to the build output and loads it on startup through
 - Asset entries without paths
 - Asset placements with non-positive sizes
 
-When importing a Pinup Popper `GameExport`, the importer keeps the main typed fields we care about and also preserves extra source fields under `metadata.additionalSourceFields` so useful upstream data is not silently lost while the schema evolves.
+When importing a Pinup Popper `GameExport`, the importer keeps the main typed fields we care about and also preserves the full source row under `metadata.sourceFields` so useful upstream metadata is not silently lost while the schema evolves.
 
 A future UI should expose this through a file picker and show warnings before replacing the active catalog.
 

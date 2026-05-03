@@ -40,9 +40,13 @@ public sealed class JsonTableCatalogStoreTests
             var metadata = Assert.IsType<ZenPlunger.Core.Tables.TableMetadata>(table.Metadata);
 
             Assert.Equal(1, result.ImportedCount);
+            Assert.Equal("Table_109", table.Id);
             Assert.Equal("109", metadata.SourceTableId);
             Assert.Equal(["Pro", "Classic", "SSF"], metadata.Features);
-            Assert.Equal("keep me", metadata.AdditionalSourceFields!["CustomField"]);
+            Assert.Equal("Table_109", metadata.SourceFields!["GameName"]);
+            Assert.Equal("109", metadata.SourceFields["TableID"]);
+            Assert.Equal("Pro; Classic; SSF", metadata.SourceFields["Features"]);
+            Assert.Equal("keep me", metadata.SourceFields["CustomField"]);
         }
         finally
         {

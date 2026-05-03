@@ -2,9 +2,34 @@
   "schemaVersion": 1,
   "tables": [
     {
-      "id": "Williams_Medieval_Madness",
+      "id": "Table_109",
       "displayName": "Medieval Madness",
       "collection": "Williams",
+      "metadata": {
+        "sourceGameId": "515",
+        "sourceTableId": "109",
+        "manufacturer": "Williams",
+        "year": 1997,
+        "features": [
+          "Cabinet",
+          "Backglass",
+          "DMD"
+        ],
+        "gameModes": [
+          "Hotseat2",
+          "Classic",
+          "Practice"
+        ],
+        "isVisible": true,
+        "sourceFields": {
+          "GameName": "Table_109",
+          "GameDisplay": "Medieval Madness",
+          "GameID": "515",
+          "TableID": "109",
+          "Features": "Cabinet;Backglass;DMD",
+          "LaunchSystem": "PinupPopper"
+        }
+      },
       "assets": {
         "backglass": {
           "path": "assets/backglass/medieval-madness.png",
@@ -29,9 +54,34 @@
       }
     },
     {
-      "id": "Williams_Attack_From_Mars",
+      "id": "Table_119",
       "displayName": "Attack from Mars",
-      "collection": "Williams",
+      "collection": "Bally",
+      "metadata": {
+        "sourceGameId": "458",
+        "sourceTableId": "119",
+        "manufacturer": "Bally",
+        "year": 1995,
+        "features": [
+          "Cabinet",
+          "Backglass",
+          "DMD"
+        ],
+        "gameModes": [
+          "Hotseat2",
+          "Classic",
+          "Practice",
+          "Pro"
+        ],
+        "isVisible": true,
+        "sourceFields": {
+          "GameName": "Table_119",
+          "GameDisplay": "Attack from Mars",
+          "GameID": "458",
+          "TableID": "119",
+          "Features": "Cabinet;Backglass;DMD"
+        }
+      },
       "assets": {
         "backglass": {
           "path": "assets/backglass/attack-from-mars.png",
@@ -56,9 +106,35 @@
       }
     },
     {
-      "id": "Zen_Sorcerers_Lair",
+      "id": "Table_33",
       "displayName": "Sorcerer's Lair",
-      "collection": "Zen Originals",
+      "collection": "Zen Studios",
+      "metadata": {
+        "sourceGameId": "531",
+        "sourceTableId": "33",
+        "manufacturer": "Zen Studios",
+        "year": 2013,
+        "features": [
+          "Cabinet",
+          "Backglass",
+          "DMD",
+          "SSF"
+        ],
+        "gameModes": [
+          "Hotseat2",
+          "Classic",
+          "Practice"
+        ],
+        "isVisible": true,
+        "sourceFields": {
+          "GameName": "Table_33",
+          "GameDisplay": "Sorcerer's Lair",
+          "GameID": "531",
+          "TableID": "33",
+          "Features": "Cabinet;Backglass;DMD;SSF",
+          "CUSTOM2": "FULLDMD"
+        }
+      },
       "assets": {
         "backglass": {
           "path": "assets/backglass/sorcerers-lair.png",
