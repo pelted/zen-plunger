@@ -25,7 +25,7 @@ This queue tracks implementation work against the architecture plan. Keep it pra
 - [x] Load table metadata from a local JSON file
 - [ ] Add a UI flow for importing a table catalog file
 - [ ] Launch selected Pinball FX table through Steam
-- [ ] Add process monitoring for Pinball FX
+- [x] Add process monitoring for Pinball FX
 - [ ] Add basic file logging
 
 ## Phase 2: Cabinet Setup Assistant
