@@ -22,9 +22,9 @@ To set up the development environment on a fresh Windows machine, run the includ
 .\bootstrap-dev.ps1
 ```
 
-This will install all required tools via `winget` and create the expected folder structure. See the [Development Environment](#development-environment) section for the full list of what gets installed.
+This will install or update all required tools via `winget` and create the expected folder structure. The script is safe to rerun as tool requirements evolve. See the [Development Environment](#development-environment) section for the full list of what gets installed.
 
-> **Note:** After the script completes, restart Windows before running `dotnet --info` or `git --version` to confirm the tools are on your PATH.
+> **Note:** After the script completes, restart Windows before running `dotnet --info`, `git --version`, `gh --version`, or `gh auth status` to confirm the tools are on your PATH. If GitHub CLI is not authenticated yet, run `gh auth login`.
 
 ---
 
@@ -183,6 +183,7 @@ Installed via PowerShell bootstrap script:
 - Visual Studio 2022 (Desktop workload)
 - .NET SDK (10 or 8)
 - Git
+- GitHub CLI (`gh`)
 - PowerShell 7
 - Windows Terminal
 - VS Code
