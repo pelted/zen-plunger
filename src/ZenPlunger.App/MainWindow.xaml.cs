@@ -1,32 +1,41 @@
 using System.Windows;
+using System.Windows.Interop;
 using ZenPlunger.Core.Launching;
 using ZenPlunger.Core.Runtime;
 using ZenPlunger.Core.Tables;
+using ZenPlunger.Platform.Windows.Runtime;
 
 namespace ZenPlunger.App;
 
 public partial class MainWindow : Window
 {
     private readonly IPinballFxLauncher _launcher;
+    private readonly IOverlayController _overlayController;
     private readonly IPinballFxProcessMonitor _processMonitor;
     private readonly ITableCatalog _tableCatalog;
+    private GlobalHotKeyRegistration? _overlayHotKeyRegistration;
 
     public MainWindow(
         IPinballFxLauncher launcher,
         IPinballFxProcessMonitor processMonitor,
-        ITableCatalog tableCatalog)
+        ITableCatalog tableCatalog,
+        IOverlayController overlayController)
     {
         ArgumentNullException.ThrowIfNull(launcher);
         ArgumentNullException.ThrowIfNull(processMonitor);
         ArgumentNullException.ThrowIfNull(tableCatalog);
+        ArgumentNullException.ThrowIfNull(overlayController);
 
         _launcher = launcher;
+        _overlayController = overlayController;
         _processMonitor = processMonitor;
         _tableCatalog = tableCatalog;
 
         InitializeComponent();
 
         Loaded += MainWindow_Loaded;
+        SourceInitialized += MainWindow_SourceInitialized;
+        Closed += MainWindow_Closed;
     }
 
     private async void MainWindow_Loaded(object sender, RoutedEventArgs e)
@@ -65,6 +74,41 @@ public partial class MainWindow : Window
 
     private async void RefreshStatusButton_Click(object sender, RoutedEventArgs e) =>
         await RefreshProcessStateAsync();
+
+    private async void ShowOverlayButton_Click(object sender, RoutedEventArgs e) =>
+        await _overlayController.ShowAsync();
+
+    private void MainWindow_SourceInitialized(object? sender, EventArgs e)
+    {
+        var windowHandle = new WindowInteropHelper(this).Handle;
+        var source = HwndSource.FromHwnd(windowHandle);
+
+        if (source is null)
+        {
+            return;
+        }
+
+        _overlayHotKeyRegistration = new GlobalHotKeyRegistration(
+            windowHandle,
+            HotKeyModifiers.Control | HotKeyModifiers.Alt,
+            virtualKey: 0x20);
+
+        source.AddHook(WndProc);
+    }
+
+    private void MainWindow_Closed(object? sender, EventArgs e) =>
+        _overlayHotKeyRegistration?.Dispose();
+
+    private nint WndProc(nint hwnd, int msg, nint wParam, nint lParam, ref bool handled)
+    {
+        if (_overlayHotKeyRegistration?.MatchesMessage(msg, wParam) == true)
+        {
+            handled = true;
+            _ = Dispatcher.InvokeAsync(async () => await _overlayController.ToggleAsync());
+        }
+
+        return nint.Zero;
+    }
 
     private async Task RefreshProcessStateAsync()
     {

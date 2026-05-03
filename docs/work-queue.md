@@ -19,9 +19,9 @@ This queue tracks implementation work against the architecture plan. Keep it pra
 ## Phase 1: MVP Launcher
 
 - [ ] Implement tray host behavior
-- [ ] Add show/hide overlay controller
-- [ ] Build basic fullscreen overlay window
-- [ ] Add keyboard input path for cabinet button simulation
+- [x] Add show/hide overlay controller
+- [x] Build basic fullscreen overlay window
+- [x] Add keyboard input path for cabinet button simulation
 - [x] Load table metadata from a local JSON file
 - [ ] Add a UI flow for importing a table catalog file
 - [ ] Launch selected Pinball FX table through Steam
